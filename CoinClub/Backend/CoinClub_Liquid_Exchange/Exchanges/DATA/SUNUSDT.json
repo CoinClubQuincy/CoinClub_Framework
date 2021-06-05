@@ -1,0 +1,21 @@
+{
+    "symbol": "SUNUSDT",
+    "priceChange": "6.3400",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "28.679",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "30.272",
+    "lowPrice": "26.328",
+    "volume": "44175.60728600000000000000000000000000",
+    "quoteVolume": "44175.60728600000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 44175.607286
+}

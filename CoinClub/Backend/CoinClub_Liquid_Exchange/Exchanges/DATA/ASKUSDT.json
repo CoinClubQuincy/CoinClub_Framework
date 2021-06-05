@@ -1,0 +1,21 @@
+{
+    "symbol": "ASKUSDT",
+    "priceChange": "0.6600",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00256053",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00288297",
+    "lowPrice": "0.00250199",
+    "volume": "22178.72944609000000000000000000000000",
+    "quoteVolume": "22178.72944609000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 22178.72944609
+}

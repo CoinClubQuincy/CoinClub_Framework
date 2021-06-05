@@ -1,0 +1,21 @@
+{
+    "symbol": "COMPUSDT",
+    "priceChange": "5.5400",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "443.83",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "459.64",
+    "lowPrice": "411.49",
+    "volume": "615742.44800000000000000000000000000000",
+    "quoteVolume": "615742.44800000000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 615742.448
+}

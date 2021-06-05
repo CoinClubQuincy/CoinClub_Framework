@@ -1,0 +1,21 @@
+{
+    "symbol": "XDCUSDT",
+    "priceChange": "1.8700",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.05800",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.06000",
+    "lowPrice": "0.05297",
+    "volume": "730116.11714900000000000000000000000000",
+    "quoteVolume": "730116.11714900000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 730116.117149
+}

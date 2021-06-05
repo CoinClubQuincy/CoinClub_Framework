@@ -1,0 +1,21 @@
+{
+    "symbol": "FTTUSDT",
+    "priceChange": "6.1700",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "35.137",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "36.223",
+    "lowPrice": "32.984",
+    "volume": "146826.14507700000000000000000000000000",
+    "quoteVolume": "146826.14507700000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 146826.145077
+}

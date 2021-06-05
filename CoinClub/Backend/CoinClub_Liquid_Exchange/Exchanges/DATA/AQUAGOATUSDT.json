@@ -1,0 +1,21 @@
+{
+    "symbol": "AQUAGOATUSDT",
+    "priceChange": "50.0000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.0000000012",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.0000000022",
+    "lowPrice": "0.0000000008",
+    "volume": "290481.7943188244000000",
+    "quoteVolume": "290481.7943188244000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 290481.7943188244
+}

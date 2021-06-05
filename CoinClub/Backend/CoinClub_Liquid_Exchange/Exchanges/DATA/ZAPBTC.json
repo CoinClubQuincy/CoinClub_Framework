@@ -1,0 +1,21 @@
+{
+    "symbol": "ZAPBTC",
+    "priceChange": "-6.7700",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00000220",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00000241",
+    "lowPrice": "0.00000218",
+    "volume": "1.03973301000000000000000000000000",
+    "quoteVolume": "1.03973301000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 1.03973301
+}

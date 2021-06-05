@@ -1,0 +1,21 @@
+{
+    "symbol": "LITUSDT",
+    "priceChange": "-4.8700",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "3.900",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "4.249",
+    "lowPrice": "2.925",
+    "volume": "1330.83036000000000000000000000000000",
+    "quoteVolume": "1330.83036000000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 1330.83036
+}

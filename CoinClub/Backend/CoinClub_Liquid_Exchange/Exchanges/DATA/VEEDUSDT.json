@@ -1,0 +1,21 @@
+{
+    "symbol": "VEEDUSDT",
+    "priceChange": "13.3000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.003237",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.003299",
+    "lowPrice": "0.002400",
+    "volume": "16468.06647029200000000000",
+    "quoteVolume": "16468.06647029200000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 16468.066470292
+}

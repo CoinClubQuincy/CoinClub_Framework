@@ -1,0 +1,21 @@
+{
+    "symbol": "TRXUSDT",
+    "priceChange": "4.3300",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.078141",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.083080",
+    "lowPrice": "0.068049",
+    "volume": "93850245.53803690000000000000000000000000",
+    "quoteVolume": "93850245.53803690000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 93850245.5380369
+}

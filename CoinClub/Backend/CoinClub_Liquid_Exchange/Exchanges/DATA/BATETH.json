@@ -1,0 +1,21 @@
+{
+    "symbol": "BATETH",
+    "priceChange": "1.2900",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00029478",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00030892",
+    "lowPrice": "0.00028179",
+    "volume": "90.14842386000000000000000000000000",
+    "quoteVolume": "90.14842386000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 90.14842386
+}

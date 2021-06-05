@@ -1,0 +1,21 @@
+{
+    "symbol": "USDCXRP",
+    "priceChange": "-3.9800",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.9700",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "1.0565",
+    "lowPrice": "0.9160",
+    "volume": "70362.63574900000000000000000000000000",
+    "quoteVolume": "70362.63574900000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 70362.635749
+}

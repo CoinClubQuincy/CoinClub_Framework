@@ -1,0 +1,21 @@
+{
+    "symbol": "VTHOUSDT",
+    "priceChange": "2.9200",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.009375",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.009987",
+    "lowPrice": "0.008014",
+    "volume": "139463.58324100000000000000000000000000",
+    "quoteVolume": "139463.58324100000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 139463.583241
+}

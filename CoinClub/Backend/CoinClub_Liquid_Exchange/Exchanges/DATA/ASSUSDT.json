@@ -1,0 +1,21 @@
+{
+    "symbol": "ASSUSDT",
+    "priceChange": "10.9800",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.0000000101",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.0000000125",
+    "lowPrice": "0.0000000060",
+    "volume": "51616.44575817650000000000000000000000",
+    "quoteVolume": "51616.44575817650000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 51616.4457581765
+}

@@ -1,0 +1,21 @@
+{
+    "symbol": "EOSBTC",
+    "priceChange": "-1.7300",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00016980",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00017420",
+    "lowPrice": "0.00016790",
+    "volume": "51.35530417410000000000000000000000",
+    "quoteVolume": "51.35530417410000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 51.3553041741
+}

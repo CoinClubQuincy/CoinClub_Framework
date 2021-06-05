@@ -1,0 +1,21 @@
+{
+    "symbol": "DASHUSDT",
+    "priceChange": "8.0700",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "202.370",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "209.420",
+    "lowPrice": "186.830",
+    "volume": "8741916.14901800000000000000000000000000",
+    "quoteVolume": "8741916.14901800000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 8741916.149018
+}

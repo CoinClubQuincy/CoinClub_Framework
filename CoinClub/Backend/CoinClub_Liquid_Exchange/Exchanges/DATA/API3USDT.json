@@ -1,0 +1,21 @@
+{
+    "symbol": "API3USDT",
+    "priceChange": "-10.8200",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "3.700",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "4.150",
+    "lowPrice": "2.602",
+    "volume": "31155.02255485500000000000000000000000",
+    "quoteVolume": "31155.02255485500000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 31155.022554855
+}

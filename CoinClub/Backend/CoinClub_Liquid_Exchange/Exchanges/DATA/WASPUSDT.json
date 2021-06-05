@@ -1,0 +1,21 @@
+{
+    "symbol": "WASPUSDT",
+    "priceChange": "2.0300",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.124610",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.139140",
+    "lowPrice": "0.116188",
+    "volume": "114268.78181939580000000000000000000000",
+    "quoteVolume": "114268.78181939580000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 114268.7818193958
+}

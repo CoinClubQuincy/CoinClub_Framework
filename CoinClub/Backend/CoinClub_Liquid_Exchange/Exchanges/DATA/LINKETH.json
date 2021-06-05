@@ -1,0 +1,21 @@
+{
+    "symbol": "LINKETH",
+    "priceChange": "-3.4500",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.01130400",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.01179000",
+    "lowPrice": "0.01049000",
+    "volume": "3436.21460000000000000000000000000000",
+    "quoteVolume": "3436.21460000000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 3436.2146
+}

@@ -1,0 +1,21 @@
+{
+    "symbol": "GASXRP",
+    "priceChange": "0.5000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "9.077",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "9.363",
+    "lowPrice": "8.885",
+    "volume": "310494.67496000000000000000000000000000",
+    "quoteVolume": "310494.67496000000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 310494.67496
+}

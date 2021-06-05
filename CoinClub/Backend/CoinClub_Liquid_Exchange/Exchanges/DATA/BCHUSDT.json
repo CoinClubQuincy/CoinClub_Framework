@@ -1,0 +1,21 @@
+{
+    "symbol": "BCHUSDT",
+    "priceChange": "2.5500",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "699.67",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "778.45",
+    "lowPrice": "630.29",
+    "volume": "83547113.21577000000000000000000000000000",
+    "quoteVolume": "83547113.21577000000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 83547113.21577
+}

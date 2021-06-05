@@ -1,0 +1,21 @@
+{
+    "symbol": "CAVOUSDT",
+    "priceChange": "18.1800",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "260.0014",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "265.9967",
+    "lowPrice": "220.0000",
+    "volume": "21007.69344330000000000000000000000000",
+    "quoteVolume": "21007.69344330000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 21007.6934433
+}

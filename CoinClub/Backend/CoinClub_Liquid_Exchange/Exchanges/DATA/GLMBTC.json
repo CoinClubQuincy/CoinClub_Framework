@@ -1,0 +1,21 @@
+{
+    "symbol": "GLMBTC",
+    "priceChange": "15.8000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.0000079900000000",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.0000079900000000",
+    "lowPrice": "0.0000069000000000",
+    "volume": "0.0169586200000000",
+    "quoteVolume": "0.0169586200000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 0.01695862
+}

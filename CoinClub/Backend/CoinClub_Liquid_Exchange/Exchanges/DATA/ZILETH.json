@@ -1,0 +1,21 @@
+{
+    "symbol": "ZILETH",
+    "priceChange": "0.2600",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00004572",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00004890",
+    "lowPrice": "0.00004097",
+    "volume": "544.96274156000000000000000000000000",
+    "quoteVolume": "544.96274156000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 544.96274156
+}

@@ -1,0 +1,21 @@
+{
+    "symbol": "TUSDXRP",
+    "priceChange": "26.7500",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.8915000000000000",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "1.1800",
+    "lowPrice": "0.5382",
+    "volume": "66585.13577600000000000000000000000000",
+    "quoteVolume": "66585.13577600000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 66585.135776
+}

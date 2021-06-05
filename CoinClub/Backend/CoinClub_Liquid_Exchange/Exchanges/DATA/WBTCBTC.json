@@ -1,0 +1,21 @@
+{
+    "symbol": "WBTCBTC",
+    "priceChange": "0.0300",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "1.00100",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "1.00419",
+    "lowPrice": "1.00020",
+    "volume": "314.17448026500000000000000000000000",
+    "quoteVolume": "314.17448026500000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 314.174480265
+}

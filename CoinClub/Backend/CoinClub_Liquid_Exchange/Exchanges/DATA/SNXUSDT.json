@@ -1,0 +1,21 @@
+{
+    "symbol": "SNXUSDT",
+    "priceChange": "4.3700",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "12.918",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "14.703",
+    "lowPrice": "12.157",
+    "volume": "101089.16188300000000000000000000000000",
+    "quoteVolume": "101089.16188300000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 101089.161883
+}

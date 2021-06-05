@@ -1,0 +1,21 @@
+{
+    "symbol": "XLMETH",
+    "priceChange": "-6.4800",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00015424",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00016860",
+    "lowPrice": "0.00015173",
+    "volume": "1886.48073760000000000000000000000000",
+    "quoteVolume": "1886.48073760000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 1886.4807376
+}

@@ -1,0 +1,21 @@
+{
+    "symbol": "XTZUSDT",
+    "priceChange": "6.6400",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "3.8274",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "3.9803",
+    "lowPrice": "3.3326",
+    "volume": "180076.84216700000000000000000000000000",
+    "quoteVolume": "180076.84216700000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 180076.842167
+}

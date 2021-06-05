@@ -1,0 +1,21 @@
+{
+    "symbol": "LINKUSDT",
+    "priceChange": "3.0700",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "30.8670",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "32.2026",
+    "lowPrice": "24.5770",
+    "volume": "1476704.26713900000000000000000000000000",
+    "quoteVolume": "1476704.26713900000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 1476704.267139
+}

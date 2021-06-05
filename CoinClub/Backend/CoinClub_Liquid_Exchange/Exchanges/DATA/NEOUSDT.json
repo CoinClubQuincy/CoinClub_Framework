@@ -1,0 +1,21 @@
+{
+    "symbol": "NEOUSDT",
+    "priceChange": "9.2100",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "58.137",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "60.347",
+    "lowPrice": "52.501",
+    "volume": "6393354.95388500000000000000000000000000",
+    "quoteVolume": "6393354.95388500000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 6393354.953885
+}

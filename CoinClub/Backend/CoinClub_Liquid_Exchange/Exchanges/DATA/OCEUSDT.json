@@ -1,0 +1,21 @@
+{
+    "symbol": "OCEUSDT",
+    "priceChange": "6.9100",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.005256",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.005270",
+    "lowPrice": "0.004557",
+    "volume": "19398.84294700000000000000000000000000",
+    "quoteVolume": "19398.84294700000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 19398.842947
+}

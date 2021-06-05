@@ -1,0 +1,21 @@
+{
+    "symbol": "GTOBTC",
+    "priceChange": "-2.1700",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00000090",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00000095",
+    "lowPrice": "0.00000089",
+    "volume": "1.20167876000000000000000000000000",
+    "quoteVolume": "1.20167876000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 1.20167876
+}

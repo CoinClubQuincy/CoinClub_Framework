@@ -1,0 +1,21 @@
+{
+    "symbol": "DIVIUSDT",
+    "priceChange": "-2.9300",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.062016",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.075000",
+    "lowPrice": "0.055459",
+    "volume": "32681.44460200000000000000000000000000",
+    "quoteVolume": "32681.44460200000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 32681.444602
+}

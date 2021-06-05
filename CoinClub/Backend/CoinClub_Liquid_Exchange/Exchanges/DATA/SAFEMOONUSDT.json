@@ -1,0 +1,21 @@
+{
+    "symbol": "SAFEMOONUSDT",
+    "priceChange": "3.8500",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00000512",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00000586",
+    "lowPrice": "0.00000441",
+    "volume": "239409.38670122000000000000000000000000",
+    "quoteVolume": "239409.38670122000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 239409.38670122
+}

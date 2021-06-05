@@ -1,0 +1,21 @@
+{
+    "symbol": "KAVABTC",
+    "priceChange": "3.9700",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00010376",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00010399",
+    "lowPrice": "0.00007019",
+    "volume": "0.04888485000000000000000000000000",
+    "quoteVolume": "0.04888485000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 0.04888485
+}

@@ -1,0 +1,21 @@
+{
+    "symbol": "ICXETH",
+    "priceChange": "2.3100",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.000442",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.000484",
+    "lowPrice": "0.000424",
+    "volume": "44.17827040000000000000000000000000",
+    "quoteVolume": "44.17827040000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 44.1782704
+}

@@ -1,0 +1,21 @@
+{
+    "symbol": "ENJUSDT",
+    "priceChange": "0.9000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "1.58800",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "1.95000",
+    "lowPrice": "1.21000",
+    "volume": "418112.62760900000000000000000000000000",
+    "quoteVolume": "418112.62760900000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 418112.627609
+}

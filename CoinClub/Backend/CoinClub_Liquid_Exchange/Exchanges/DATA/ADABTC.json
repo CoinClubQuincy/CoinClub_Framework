@@ -1,0 +1,21 @@
+{
+    "symbol": "ADABTC",
+    "priceChange": "-3.7400",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00004672",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00004895",
+    "lowPrice": "0.00004625",
+    "volume": "913.31806454000000000000000000000000",
+    "quoteVolume": "913.31806454000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 913.31806454
+}

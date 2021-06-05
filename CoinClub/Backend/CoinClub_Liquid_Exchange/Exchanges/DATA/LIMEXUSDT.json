@@ -1,0 +1,21 @@
+{
+    "symbol": "LIMEXUSDT",
+    "priceChange": "-25.5300",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.003649",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.005089",
+    "lowPrice": "0.003500",
+    "volume": "7044.17808000000000000000000000000000",
+    "quoteVolume": "7044.17808000000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 7044.17808
+}

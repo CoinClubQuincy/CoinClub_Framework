@@ -1,0 +1,21 @@
+{
+    "symbol": "RVNBTC",
+    "priceChange": "4.9300",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00000234",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00000249",
+    "lowPrice": "0.00000202",
+    "volume": "0.37042170440000000000000000000000",
+    "quoteVolume": "0.37042170440000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 0.3704217044
+}

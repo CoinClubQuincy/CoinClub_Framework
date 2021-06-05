@@ -1,0 +1,21 @@
+{
+    "symbol": "CAKEUSDT",
+    "priceChange": "12.3100",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "19.548",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "21.000",
+    "lowPrice": "14.750",
+    "volume": "1292643.04398000000000000000000000000000",
+    "quoteVolume": "1292643.04398000000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 1292643.04398
+}

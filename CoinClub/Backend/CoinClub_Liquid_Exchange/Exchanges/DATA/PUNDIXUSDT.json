@@ -1,0 +1,21 @@
+{
+    "symbol": "PUNDIXUSDT",
+    "priceChange": "3.1400",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "1.671",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "1.715",
+    "lowPrice": "1.561",
+    "volume": "63301.46845000000000000000000000000000",
+    "quoteVolume": "63301.46845000000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 63301.46845
+}

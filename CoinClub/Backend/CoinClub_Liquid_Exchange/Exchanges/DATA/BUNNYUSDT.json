@@ -1,0 +1,21 @@
+{
+    "symbol": "BUNNYUSDT",
+    "priceChange": "22.2300",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "27.140",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "31.287",
+    "lowPrice": "22.204",
+    "volume": "53584.16561800000000000000000000000000",
+    "quoteVolume": "53584.16561800000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 53584.165618
+}

@@ -1,0 +1,21 @@
+{
+    "symbol": "SHIBUSDT",
+    "priceChange": "15.0600",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00000947",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00001037",
+    "lowPrice": "0.00000808",
+    "volume": "742342.13479182000000000000000000000000",
+    "quoteVolume": "742342.13479182000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 742342.13479182
+}

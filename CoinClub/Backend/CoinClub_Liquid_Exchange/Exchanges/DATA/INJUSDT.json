@@ -1,0 +1,21 @@
+{
+    "symbol": "INJUSDT",
+    "priceChange": "15.8500",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "10.560",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "12.500",
+    "lowPrice": "7.491",
+    "volume": "118075.41090300000000000000000000000000",
+    "quoteVolume": "118075.41090300000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 118075.410903
+}

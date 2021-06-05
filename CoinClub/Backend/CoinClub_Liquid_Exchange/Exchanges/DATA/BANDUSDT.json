@@ -1,0 +1,21 @@
+{
+    "symbol": "BANDUSDT",
+    "priceChange": "5.4500",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "8.8940",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "9.0900",
+    "lowPrice": "8.1320",
+    "volume": "164922.37370300000000000000000000000000",
+    "quoteVolume": "164922.37370300000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 164922.373703
+}

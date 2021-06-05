@@ -1,0 +1,21 @@
+{
+    "symbol": "ETCUSDT",
+    "priceChange": "1.4000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "68.3870",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "82.8570",
+    "lowPrice": "65.7700",
+    "volume": "20131823.23564600000000000000000000000000",
+    "quoteVolume": "20131823.23564600000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 20131823.235646
+}

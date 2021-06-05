@@ -1,0 +1,21 @@
+{
+    "symbol": "LTCUSDT",
+    "priceChange": "3.5000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "185.98",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "200.16",
+    "lowPrice": "164.06",
+    "volume": "48091053.98927890000000000000000000000000",
+    "quoteVolume": "48091053.98927890000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 48091053.9892789
+}

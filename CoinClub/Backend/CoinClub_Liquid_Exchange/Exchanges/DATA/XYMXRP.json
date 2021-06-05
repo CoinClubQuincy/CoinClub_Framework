@@ -1,0 +1,21 @@
+{
+    "symbol": "XYMXRP",
+    "priceChange": "14.5000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.2273",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.2273",
+    "lowPrice": "0.1840",
+    "volume": "67381.14664800000000000000000000000000",
+    "quoteVolume": "67381.14664800000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 67381.146648
+}

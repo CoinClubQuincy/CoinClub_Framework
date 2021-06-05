@@ -1,0 +1,21 @@
+{
+    "symbol": "CRVUSDT",
+    "priceChange": "19.7600",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "2.3200",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "2.5110",
+    "lowPrice": "1.4613",
+    "volume": "3028670.98316200000000000000000000000000",
+    "quoteVolume": "3028670.98316200000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 3028670.983162
+}

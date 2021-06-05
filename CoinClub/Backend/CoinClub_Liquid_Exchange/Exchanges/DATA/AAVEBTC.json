@@ -1,0 +1,21 @@
+{
+    "symbol": "AAVEBTC",
+    "priceChange": "1.7200",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.010290",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.010536",
+    "lowPrice": "0.010053",
+    "volume": "1.06987179000000000000000000000000",
+    "quoteVolume": "1.06987179000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 1.06987179
+}

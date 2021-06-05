@@ -1,0 +1,21 @@
+{
+    "symbol": "VETUSDT",
+    "priceChange": "5.9800",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.126650",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.131860",
+    "lowPrice": "0.095000",
+    "volume": "145191354.41837000000000000000000000000000",
+    "quoteVolume": "145191354.41837000000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 145191354.41837
+}

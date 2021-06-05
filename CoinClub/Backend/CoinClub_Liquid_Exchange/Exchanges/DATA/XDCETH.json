@@ -1,0 +1,21 @@
+{
+    "symbol": "XDCETH",
+    "priceChange": "-0.7100",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00002092",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00002638",
+    "lowPrice": "0.00002070",
+    "volume": "8.64806425000000000000000000000000",
+    "quoteVolume": "8.64806425000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 8.64806425
+}

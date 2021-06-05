@@ -1,0 +1,21 @@
+{
+    "symbol": "EOSETH",
+    "priceChange": "-3.8900",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00234100",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00243800",
+    "lowPrice": "0.00210000",
+    "volume": "2423.73070894420000000000000000000000",
+    "quoteVolume": "2423.73070894420000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 2423.7307089442
+}

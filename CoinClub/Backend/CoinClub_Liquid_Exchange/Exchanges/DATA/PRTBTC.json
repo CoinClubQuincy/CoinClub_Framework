@@ -1,0 +1,21 @@
+{
+    "symbol": "PRTBTC",
+    "priceChange": "7.6200",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.0000013990000000",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.0000013990000000",
+    "lowPrice": "0.0000013000000000",
+    "volume": "0.0021423221000000",
+    "quoteVolume": "0.0021423221000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 0.0021423221
+}

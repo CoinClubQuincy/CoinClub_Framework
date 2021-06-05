@@ -1,0 +1,21 @@
+{
+    "symbol": "ETHUSDT",
+    "priceChange": "6.7100",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "2731.00",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "2867.81",
+    "lowPrice": "2273.10",
+    "volume": "209786031.45406000000000000000000000000000",
+    "quoteVolume": "209786031.45406000000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 209786031.45406
+}

@@ -1,0 +1,21 @@
+{
+    "symbol": "ELFBTC",
+    "priceChange": "1.0200",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00000691",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00000696",
+    "lowPrice": "0.00000676",
+    "volume": "0.31656283000000000000000000000000",
+    "quoteVolume": "0.31656283000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 0.31656283
+}

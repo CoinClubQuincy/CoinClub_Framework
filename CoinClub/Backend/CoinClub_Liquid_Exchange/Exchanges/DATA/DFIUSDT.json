@@ -1,0 +1,21 @@
+{
+    "symbol": "DFIUSDT",
+    "priceChange": "1.0600",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "2.9725",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "3.0217",
+    "lowPrice": "2.9323",
+    "volume": "10871.60723500000000000000000000000000",
+    "quoteVolume": "10871.60723500000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 10871.607235
+}

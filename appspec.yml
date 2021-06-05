@@ -1,0 +1,17 @@
+version: 0.0
+os: linux
+files:
+  - source: /CoinClub
+    destination: /home/ubuntu
+hooks:
+  BeforeInstall:
+    - location: scripts/install_dependencies.sh
+      timeout: 300
+      runas: root
+    - location: scripts/start_server.sh
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop_server.sh
+      timeout: 300
+      runas: root

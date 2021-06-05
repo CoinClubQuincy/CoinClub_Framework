@@ -1,0 +1,21 @@
+{
+    "symbol": "EOSUSDT",
+    "priceChange": "2.6400",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "6.39620",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "7.33330",
+    "lowPrice": "5.80860",
+    "volume": "29971695.47188850000000000000000000000000",
+    "quoteVolume": "29971695.47188850000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 29971695.4718885
+}

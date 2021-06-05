@@ -1,0 +1,21 @@
+{
+    "symbol": "VEEDBTC",
+    "priceChange": "7.5000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.000000086",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.000000099",
+    "lowPrice": "0.000000080",
+    "volume": "0.030085849330000000",
+    "quoteVolume": "0.030085849330000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 0.03008584933
+}

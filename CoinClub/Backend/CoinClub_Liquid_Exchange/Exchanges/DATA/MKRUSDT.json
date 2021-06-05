@@ -1,0 +1,21 @@
+{
+    "symbol": "MKRUSDT",
+    "priceChange": "-24.4600",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "2700.03",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "3965.44",
+    "lowPrice": "2700.01",
+    "volume": "84797.77041700000000000000000000000000",
+    "quoteVolume": "84797.77041700000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 84797.770417
+}

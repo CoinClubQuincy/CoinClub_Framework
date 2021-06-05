@@ -1,0 +1,21 @@
+{
+    "symbol": "GRTUSDT",
+    "priceChange": "2.3700",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.781200",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.860000",
+    "lowPrice": "0.643231",
+    "volume": "199341.74236720000000000000000000000000",
+    "quoteVolume": "199341.74236720000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 199341.7423672
+}

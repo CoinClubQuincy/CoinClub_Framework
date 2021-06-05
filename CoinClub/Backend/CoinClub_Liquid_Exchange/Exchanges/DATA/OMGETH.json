@@ -1,0 +1,21 @@
+{
+    "symbol": "OMGETH",
+    "priceChange": "-1.9700",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.002387",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.002656",
+    "lowPrice": "0.002360",
+    "volume": "640.92728552000000000000000000000000",
+    "quoteVolume": "640.92728552000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 640.92728552
+}

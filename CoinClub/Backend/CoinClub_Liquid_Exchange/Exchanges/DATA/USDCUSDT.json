@@ -1,0 +1,21 @@
+{
+    "symbol": "USDCUSDT",
+    "priceChange": "-0.0100",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.9999",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "1.0400",
+    "lowPrice": "0.9970",
+    "volume": "681333.53876400000000000000000000000000",
+    "quoteVolume": "681333.53876400000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 681333.538764
+}

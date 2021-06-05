@@ -1,0 +1,21 @@
+{
+    "symbol": "KAVAUSDT",
+    "priceChange": "47.0900",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "4.7844",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "4.7988",
+    "lowPrice": "3.2526",
+    "volume": "10437.90730600000000000000000000000000",
+    "quoteVolume": "10437.90730600000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 10437.907306
+}

@@ -1,0 +1,21 @@
+{
+    "symbol": "HAIUSDT",
+    "priceChange": "16.0900",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.159051",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.179999",
+    "lowPrice": "0.137003",
+    "volume": "34029.31543400000000000000000000000000",
+    "quoteVolume": "34029.31543400000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 34029.315434
+}

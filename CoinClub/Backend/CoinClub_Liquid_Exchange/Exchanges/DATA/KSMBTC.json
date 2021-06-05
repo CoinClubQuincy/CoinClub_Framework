@@ -1,0 +1,21 @@
+{
+    "symbol": "KSMBTC",
+    "priceChange": "20.0800",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.011932",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.012559",
+    "lowPrice": "0.009793",
+    "volume": "4.64365907800000000000000000000000",
+    "quoteVolume": "4.64365907800000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 4.643659078
+}

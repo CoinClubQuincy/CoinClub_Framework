@@ -1,0 +1,21 @@
+{
+    "symbol": "UOSBTC",
+    "priceChange": "5.0300",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.0000084754",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.0000085654",
+    "lowPrice": "0.0000061021",
+    "volume": "1.21141931723300000000000000000000",
+    "quoteVolume": "1.21141931723300000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 1.211419317233
+}

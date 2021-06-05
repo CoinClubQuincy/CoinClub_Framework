@@ -1,0 +1,21 @@
+{
+    "symbol": "ZRXETH",
+    "priceChange": "4.9000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00041500",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00046100",
+    "lowPrice": "0.00036300",
+    "volume": "815.95238294000000000000000000000000",
+    "quoteVolume": "815.95238294000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 815.95238294
+}

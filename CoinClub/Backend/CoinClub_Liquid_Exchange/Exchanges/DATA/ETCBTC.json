@@ -1,0 +1,21 @@
+{
+    "symbol": "ETCBTC",
+    "priceChange": "-2.5600",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00180310",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00188370",
+    "lowPrice": "0.00179980",
+    "volume": "42.90950049800000000000000000000000",
+    "quoteVolume": "42.90950049800000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 42.909500498
+}

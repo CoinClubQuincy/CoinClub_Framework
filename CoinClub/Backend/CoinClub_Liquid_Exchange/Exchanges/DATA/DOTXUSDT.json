@@ -1,0 +1,21 @@
+{
+    "symbol": "DOTXUSDT",
+    "priceChange": "-20.0000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.3200000000000000",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.4290000000000000",
+    "lowPrice": "0.3200000000000000",
+    "volume": "7291.45825100000000000000000000000000",
+    "quoteVolume": "7291.45825100000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 7291.458251
+}

@@ -1,0 +1,21 @@
+{
+    "symbol": "HGOLDUSDT",
+    "priceChange": "-5.7100",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.3544",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.4000",
+    "lowPrice": "0.3300",
+    "volume": "6410.33631600000000000000000000000000",
+    "quoteVolume": "6410.33631600000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 6410.336316
+}

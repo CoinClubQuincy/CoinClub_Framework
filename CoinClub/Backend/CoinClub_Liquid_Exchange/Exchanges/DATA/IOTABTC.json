@@ -1,0 +1,21 @@
+{
+    "symbol": "IOTABTC",
+    "priceChange": "9.2700",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00003383",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00003471",
+    "lowPrice": "0.00003020",
+    "volume": "1.55858217000000000000000000000000",
+    "quoteVolume": "1.55858217000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 1.55858217
+}

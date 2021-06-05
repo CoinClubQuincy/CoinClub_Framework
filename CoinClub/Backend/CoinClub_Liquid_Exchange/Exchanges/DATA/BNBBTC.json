@@ -1,0 +1,21 @@
+{
+    "symbol": "BNBBTC",
+    "priceChange": "10.4800",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.01074362",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.01103878",
+    "lowPrice": "0.00908292",
+    "volume": "1127.88634542020000000000000000000000",
+    "quoteVolume": "1127.88634542020000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 1127.8863454202
+}

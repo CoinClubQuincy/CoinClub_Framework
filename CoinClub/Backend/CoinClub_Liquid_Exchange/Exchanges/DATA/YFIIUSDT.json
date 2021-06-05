@@ -1,0 +1,21 @@
+{
+    "symbol": "YFIIUSDT",
+    "priceChange": "2.9000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "1898.65",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "1942.50",
+    "lowPrice": "1737.03",
+    "volume": "39078.70287164000000000000000000000000",
+    "quoteVolume": "39078.70287164000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 39078.70287164
+}

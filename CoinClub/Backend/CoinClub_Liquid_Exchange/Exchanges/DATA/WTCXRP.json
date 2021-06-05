@@ -1,0 +1,21 @@
+{
+    "symbol": "WTCXRP",
+    "priceChange": "3.7500",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.857",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.900",
+    "lowPrice": "0.804",
+    "volume": "75509.46025000000000000000000000000000",
+    "quoteVolume": "75509.46025000000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 75509.46025
+}

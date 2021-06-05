@@ -1,0 +1,21 @@
+{
+    "symbol": "1INCHUSDT",
+    "priceChange": "14.0500",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "3.4599",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "3.9582",
+    "lowPrice": "2.7500",
+    "volume": "2477894.39988400000000000000000000000000",
+    "quoteVolume": "2477894.39988400000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 2477894.399884
+}

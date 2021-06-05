@@ -1,0 +1,21 @@
+{
+    "symbol": "ZILBTC",
+    "priceChange": "2.1500",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00000332",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00000351",
+    "lowPrice": "0.00000317",
+    "volume": "41.21118385000000000000000000000000",
+    "quoteVolume": "41.21118385000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 41.21118385
+}

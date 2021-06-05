@@ -1,0 +1,21 @@
+{
+    "symbol": "FRONTUSDT",
+    "priceChange": "13.3000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "1.269",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "1.269",
+    "lowPrice": "1.050",
+    "volume": "3270.97040000000000000000000000000000",
+    "quoteVolume": "3270.97040000000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 3270.9704
+}

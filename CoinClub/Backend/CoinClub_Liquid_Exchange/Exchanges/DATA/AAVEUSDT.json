@@ -1,0 +1,21 @@
+{
+    "symbol": "AAVEUSDT",
+    "priceChange": "6.3300",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "387.870",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "402.190",
+    "lowPrice": "297.480",
+    "volume": "625731.04989700000000000000000000000000",
+    "quoteVolume": "625731.04989700000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 625731.049897
+}

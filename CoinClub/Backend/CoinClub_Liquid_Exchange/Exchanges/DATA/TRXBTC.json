@@ -1,0 +1,21 @@
+{
+    "symbol": "TRXBTC",
+    "priceChange": "-0.4800",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00000207",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00000211",
+    "lowPrice": "0.00000204",
+    "volume": "30.78139349000000000000000000000000",
+    "quoteVolume": "30.78139349000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 30.78139349
+}

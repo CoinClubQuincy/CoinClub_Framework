@@ -1,0 +1,21 @@
+{
+    "symbol": "SANDUSDT",
+    "priceChange": "9.8300",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.31852",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.35989",
+    "lowPrice": "0.28019",
+    "volume": "9569.53804800000000000000000000000000",
+    "quoteVolume": "9569.53804800000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 9569.538048
+}

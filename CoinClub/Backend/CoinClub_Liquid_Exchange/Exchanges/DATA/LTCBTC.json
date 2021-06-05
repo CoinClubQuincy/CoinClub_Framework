@@ -1,0 +1,21 @@
+{
+    "symbol": "LTCBTC",
+    "priceChange": "-0.8800",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00493600",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00501400",
+    "lowPrice": "0.00480200",
+    "volume": "119.32281884840000000000000000000000",
+    "quoteVolume": "119.32281884840000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 119.3228188484
+}

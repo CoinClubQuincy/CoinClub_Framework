@@ -1,0 +1,11 @@
+# Bitrue Config
+Exchange:
+  Main: "Bitrue"
+Assets:
+  Aproved: ["",""]
+
+Liquidity_Algorithm:
+  Deviation: .025
+  Set: 10
+
+  

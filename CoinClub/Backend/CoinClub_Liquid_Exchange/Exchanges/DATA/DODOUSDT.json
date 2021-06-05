@@ -1,0 +1,21 @@
+{
+    "symbol": "DODOUSDT",
+    "priceChange": "9.6800",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "1.5026",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "1.6960",
+    "lowPrice": "1.3003",
+    "volume": "595.06330300000000000000000000000000",
+    "quoteVolume": "595.06330300000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 595.063303
+}

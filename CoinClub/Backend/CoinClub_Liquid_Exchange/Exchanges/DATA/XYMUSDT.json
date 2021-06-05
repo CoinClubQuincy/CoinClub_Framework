@@ -1,0 +1,21 @@
+{
+    "symbol": "XYMUSDT",
+    "priceChange": "11.3900",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.2161",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.2210",
+    "lowPrice": "0.1827",
+    "volume": "42061.68565300000000000000000000000000",
+    "quoteVolume": "42061.68565300000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 42061.685653
+}

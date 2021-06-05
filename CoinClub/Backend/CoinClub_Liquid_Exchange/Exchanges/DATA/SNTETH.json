@@ -1,0 +1,21 @@
+{
+    "symbol": "SNTETH",
+    "priceChange": "-3.5200",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00003535",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00003707",
+    "lowPrice": "0.00003426",
+    "volume": "0.72270533000000000000000000000000",
+    "quoteVolume": "0.72270533000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 0.72270533
+}

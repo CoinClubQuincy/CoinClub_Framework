@@ -1,0 +1,21 @@
+{
+    "symbol": "ATOMUSDT",
+    "priceChange": "9.0900",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "14.791",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "15.329",
+    "lowPrice": "11.796",
+    "volume": "317766.22175800000000000000000000000000",
+    "quoteVolume": "317766.22175800000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 317766.221758
+}

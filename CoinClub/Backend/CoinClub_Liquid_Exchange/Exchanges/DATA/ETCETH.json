@@ -1,0 +1,21 @@
+{
+    "symbol": "ETCETH",
+    "priceChange": "-5.2300",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.02501300",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.02844900",
+    "lowPrice": "0.02470400",
+    "volume": "666.49368162000000000000000000000000",
+    "quoteVolume": "666.49368162000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 666.49368162
+}

@@ -1,0 +1,21 @@
+{
+    "symbol": "PPTBTC",
+    "priceChange": "-5.1100",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00006784",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00007150",
+    "lowPrice": "0.00006519",
+    "volume": "3.54992679850000000000000000000000",
+    "quoteVolume": "3.54992679850000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 3.5499267985
+}

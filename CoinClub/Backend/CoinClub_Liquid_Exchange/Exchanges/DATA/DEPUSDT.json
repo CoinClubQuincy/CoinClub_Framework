@@ -1,0 +1,21 @@
+{
+    "symbol": "DEPUSDT",
+    "priceChange": "2.6900",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00687000",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00688000",
+    "lowPrice": "0.00642000",
+    "volume": "32373.73450604470000000000000000000000",
+    "quoteVolume": "32373.73450604470000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 32373.7345060447
+}

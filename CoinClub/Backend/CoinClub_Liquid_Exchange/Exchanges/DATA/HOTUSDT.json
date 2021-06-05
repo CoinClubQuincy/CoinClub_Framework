@@ -1,0 +1,21 @@
+{
+    "symbol": "HOTUSDT",
+    "priceChange": "2.1000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.0087400",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.0106820",
+    "lowPrice": "0.0073000",
+    "volume": "20118255.67769060000000000000000000000000",
+    "quoteVolume": "20118255.67769060000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 20118255.6776906
+}

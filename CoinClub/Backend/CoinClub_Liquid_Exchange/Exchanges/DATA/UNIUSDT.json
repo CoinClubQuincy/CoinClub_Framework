@@ -1,0 +1,21 @@
+{
+    "symbol": "UNIUSDT",
+    "priceChange": "3.9000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "27.8880",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "28.8000",
+    "lowPrice": "26.3702",
+    "volume": "477741.63236000000000000000000000000000",
+    "quoteVolume": "477741.63236000000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 477741.63236
+}

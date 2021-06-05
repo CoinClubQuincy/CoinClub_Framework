@@ -1,0 +1,21 @@
+{
+    "symbol": "ENJBTC",
+    "priceChange": "-3.5700",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00004209",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00004367",
+    "lowPrice": "0.00004197",
+    "volume": "64.36149314000000000000000000000000",
+    "quoteVolume": "64.36149314000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 64.36149314
+}

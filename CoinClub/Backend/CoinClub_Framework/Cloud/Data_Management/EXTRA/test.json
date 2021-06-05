@@ -1,0 +1,207 @@
+{
+    "result": "error",
+    "message": "Cannot GET /v2/servers/info",
+    "api-map": {
+        "name": "rippled-historical-database",
+        "version": "2.4.2",
+        "documentation": "https://github.com/ripple/rippled-historical-database",
+        "release-notes": "https://github.com/ripple/rippled-historical-database/releases/tag/v2.4.2",
+        "endpoints": [
+            {# Return 200  $$ -----------------------------------------------------
+                "action": "Get Account Transactions",
+                "route": "/v2/accounts/{:address}/transactions",
+                "example": "http://data.ripple.com/v2/accounts/r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV/transactions"
+            },
+            {# Return 200
+                "action": "Get Account Transactions By Sequence",
+                "route": "/v2/accounts/{:address}/transactions/{:sequence}",
+                "example": "http://data.ripple.com/v2/accounts/r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV/transactions/112"
+            },
+            {# Return 200 # $$ -----------------------------------------------------
+                "action": "Get Account Payments",
+                "route": "/v2/accounts/{:address}/payments",
+                "example": "http://data.ripple.com/v2/accounts/r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV/payments"
+            },
+            {# Return 200 $$ -----------------------------------------------------
+                "action": "Get Account Exchanges",
+                "route": "/v2/accounts/{:address}/exchanges",
+                "example": "http://data.ripple.com/v2/accounts/rQaxmmRMasgt1edq8pfJKCfbkEiSp5FqXJ/exchanges"
+            },
+            {# Accounts $$ -----------------------------------------------------
+                "action": "Get Account Balance Changes",
+                "route": "/v2/accounts/{:address}/balance_changes",
+                "example": "http://data.ripple.com/v2/accounts/r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV/balance_changes"
+            },
+            {# Accounts
+                "action": "Get Account Reports",
+                "route": "/v2/accounts/{:address}/reports/{:date}",
+                "example": "http://data.ripple.com/v2/accounts/r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV/reports/2013-02-01"
+            },
+            {# Accounts $$ -----------------------------------------------------
+                "action": "Get Account Balances",
+                "route": "/v2/accounts/{:address}/balances",
+                "example": "http://data.ripple.com/v2/accounts/r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV/balances"
+            },
+            {# Accounts $$ -----------------------------------------------------
+                "action": "Get Account Orders",
+                "route": "/v2/accounts/{:address}/orders",
+                "example": "http://data.ripple.com/v2/accounts/r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV/orders"
+            },
+            {# Accounts $$ -----------------------------------------------------
+                "action": "Get Account Transaction Stats",
+                "route": "/v2/accounts/{:address}/stats/transactions",
+                "example": "http://data.ripple.com/v2/accounts/r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV/stats/transactions"
+            },
+            {# Accounts $$ -----------------------------------------------------
+                "action": "Get Account Value Stats",
+                "route": "/v2/accounts/{:address}/stats/value",
+                "example": "http://data.ripple.com/v2/accounts/r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV/stats/value"
+            },
+            {# Accounts
+                "action": "Get Account",
+                "route": "/v2/accounts/{:address}",
+                "example": "http://data.ripple.com/v2/accounts/rB31eWvkfKBAu6FDD9zgnzT4RwSfXGcqPm"
+            },
+            {# Accounts $$ -----------------------------------------------------
+                "action": "Get Accounts",
+                "route": "/v2/accounts",
+                "example": "http://data.ripple.com/v2/accounts?parent=r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV"
+            },
+            {###############
+                "action": "Get Ledgers",
+                "route": "/v2/ledgers/{:ledger_hash/ledger_index/date}",
+                "example": "http://data.ripple.com/v2/ledgers"
+            },
+            {# Transactions $$ -----------------------------------------------------
+                "action": "Get Transactions",
+                "route": "/v2/transactions",
+                "example": "http://data.ripple.com/v2/transactions?start=2015-08-01"
+            },
+            {# Transactions
+                "action": "Get Transaction",
+                "route": "/v2/transactions/{:tx_hash}",
+                "example": "http://data.ripple.com/v2/transactions/3B1A4E1C9BB6A7208EB146BCDB86ECEA6068ED01466D933528CA2B4C64F753EF"
+            },
+            {# Transactions
+                "action": "Get Payments",
+                "route": "/v2/payments/{:currency+issuer}",
+                "example": "http://data.ripple.com/v2/payments/USD+rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+            },
+            {# NEEDS base/counter
+                "action": "Get Exchanges",
+                "route": "/v2/exchanges/{:base}/{:counter}",
+                "example": "http://data.ripple.com/v2/exchanges/XRP/USD+rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+            },
+            {# NEEDS base/counter
+                "action": "Get Active Accounts",
+                "route": "/v2/active_accounts/{:base}/{:counter}",
+                "example": "http://data.ripple.com/v2/active_accounts/XRP/USD+rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+            },
+            {############### NO VAR $$ -----------------------------------------------------
+                "action": "Get Exchange Volume",
+                "route": "/v2/network/exchange_volume",
+                "example": "http://data.ripple.com/v2/network/exchange_volume"
+            },
+            {############### NO VAR $$ -----------------------------------------------------
+                "action": "Get Payment Volume",
+                "route": "/v2/network/payment_volume",
+                "example": "http://data.ripple.com/v2/network/payment_volume"
+            },
+            {############### NO VAR $$ -----------------------------------------------------
+                "action": "Get External Market Volume",
+                "route": "/v2/network/external_markets",
+                "example": "http://data.ripple.com/v2/network/external_markets?period=3day"
+            },
+            {############### NO VAR $$ -----------------------------------------------------
+                "action": "Get XRP Distribution",
+                "route": "/v2/network/xrp_distribution",
+                "example": "http://data.ripple.com/v2/network/xrp_distribution"
+            },
+            {# DATE $$ -----------------------------------------------------
+                "action": "Get Top Currencies",
+                "route": "/v2/network/top_currencies/{:date}",
+                "example": "http://data.ripple.com/v2/network/top_currencies"
+            },
+            {# DATE $$NOW $$ -----------------------------------------------------
+                "action": "Get Top Markets",
+                "route": "/v2/network/top_markets/{:date}",
+                "example": "http://data.ripple.com/v2/network/top_markets"
+            },
+            {############### NO VAR $$ -----------------------------------------------------
+                "action": "Get Network Topology",
+                "route": "/v2/network/topology",
+                "example": "http://data.ripple.com/v2/network/topology"
+            },
+            {############### NO VAR $$ -----------------------------------------------------
+                "action": "Get Network Topology Nodes",
+                "route": "/v2/network/topology/nodes",
+                "example": "http://data.ripple.com/v2/network/topology/nodes"
+            },
+            {############### NO VAR $$ -----------------------------------------------------
+                "action": "Get Network Topology Node by public key",
+                "route": "/v2/network/topology/nodes/:",
+                "example": "http://data.ripple.com/v2/network/topology/nodes/n9KDJqdL5pebR35tkE4pRuZ7MhTvQGid8YqwjJajwrZUN5fEDxsZ"
+            },
+            {############### NO VAR $$ -----------------------------------------------------
+                "action": "Get Network Topology Links",
+                "route": "/v2/network/topology/links",
+                "example": "http://data.ripple.com/v2/network/topology/links"
+            },
+            {############### NO VAR $$ -----------------------------------------------------
+                "action": "Get Validators",
+                "route": "/v2/network/validators",
+                "example": "http://data.ripple.com/v2/network/validators"
+            },
+            {# NEEDS pubkey $$ -----------------------------------------------------
+                "action": "Get Validator",
+                "route": "/v2/network/validators/{:pubkey}",
+                "example": "http://data.ripple.com/v2/network/validators/nHBidG3pZK11zQD6kpNDoAhDxH6WLGui6ZxSbUx7LSqLHsgzMPec"
+            },
+            {# NEEDS pubkey $$ -----------------------------------------------------
+                "action": "Get Validator Manifests",
+                "route": "/v2/network/validators/{:pubkey}/manifests",
+                "example": "http://data.ripple.com/v2/network/validators/nHBidG3pZK11zQD6kpNDoAhDxH6WLGui6ZxSbUx7LSqLHsgzMPec/manifests"
+            },
+            {# NEEDS pubkey $$ -----------------------------------------------------
+                "action": "Get Validator Reports",
+                "route": "/v2/network/validators/{:pubkey}/reports",
+                "example": "http://data.ripple.com/v2/network/validators/nHBidG3pZK11zQD6kpNDoAhDxH6WLGui6ZxSbUx7LSqLHsgzMPec/reports"
+            },
+            {#NO VAR $$ -----------------------------------------------------
+                "action": "Get Validator Reports",
+                "route": "/v2/network/validator_reports",
+                "example": "http://data.ripple.com/v2/network/validator_reports"
+            },
+            {#No VAR $$ -----------------------------------------------------
+                "action": "Get Rippled Versions",
+                "route": "/v2/network/rippled_versions",
+                "example": "http://data.ripple.com/v2/network/rippled_versions"
+            },
+            {# NEEDS base/counter
+                "action": "Get Exchange Rate",
+                "route": "/v2/exchange_rates/{:base}/{:counter}",
+                "example": "http://data.ripple.com/v2/exchange_rates/XRP/USD+rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+            },
+            {# NO VAR $$ -----------------------------------------------------
+                "action": "Normalize Amount",
+                "route": "/v2/normalize",
+                "example": "http://data.ripple.com/v2/normalize?amount=2000&currency=XRP&exchange_currency=USD&exchange_issuer=rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+            },
+            {# DATE $$ -----------------------------------------------------
+                "action": "Get Daily Summary",
+                "route": "/v2/reports/{:date}",
+                "example": "http://data.ripple.com/v2/reports"
+            },
+            {# NEEDS XTRA
+                "action": "Get Transaction Statistics",
+                "route": "/v2/stats/{:family}/{:metric}",
+                "example": "http://data.ripple.com/v2/stats"
+            },
+            {# NEEDS XTRA
+                "action": "Check Health",
+                "route": "/v2/health/{:component}",
+                "example": "http://data.ripple.com/v2/health/importer?verbose=true"
+            }
+        ]
+    }
+}

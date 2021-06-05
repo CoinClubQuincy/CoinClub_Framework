@@ -1,0 +1,21 @@
+{
+    "symbol": "XTZBTC",
+    "priceChange": "0.9000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00010000",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00010300",
+    "lowPrice": "0.00009830",
+    "volume": "7.47052842390000000000000000000000",
+    "quoteVolume": "7.47052842390000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 7.4705284239
+}

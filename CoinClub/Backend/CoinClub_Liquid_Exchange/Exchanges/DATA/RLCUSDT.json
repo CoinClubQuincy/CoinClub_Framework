@@ -1,0 +1,21 @@
+{
+    "symbol": "RLCUSDT",
+    "priceChange": "11.2200",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "4.4504",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "6.9999",
+    "lowPrice": "4.0013",
+    "volume": "20082.10866400000000000000000000000000",
+    "quoteVolume": "20082.10866400000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 20082.108664
+}

@@ -1,0 +1,21 @@
+{
+    "symbol": "MDXUSDT",
+    "priceChange": "6.8800",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "2.3101",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "2.9899",
+    "lowPrice": "2.1612",
+    "volume": "1320.64452500000000000000000000000000",
+    "quoteVolume": "1320.64452500000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 1320.644525
+}

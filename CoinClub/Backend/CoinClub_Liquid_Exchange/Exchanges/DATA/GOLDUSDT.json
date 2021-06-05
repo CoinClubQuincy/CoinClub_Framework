@@ -1,0 +1,21 @@
+{
+    "symbol": "GOLDUSDT",
+    "priceChange": "-0.4800",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "57.02510000",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "58.98000000",
+    "lowPrice": "57.02000000",
+    "volume": "8079.40801606400000000000000000000000",
+    "quoteVolume": "8079.40801606400000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 8079.408016064
+}

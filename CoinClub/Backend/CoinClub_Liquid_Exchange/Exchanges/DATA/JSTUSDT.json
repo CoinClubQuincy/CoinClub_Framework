@@ -1,0 +1,21 @@
+{
+    "symbol": "JSTUSDT",
+    "priceChange": "5.6500",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.07012",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.07146",
+    "lowPrice": "0.06594",
+    "volume": "20525.82542800000000000000000000000000",
+    "quoteVolume": "20525.82542800000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 20525.825428
+}

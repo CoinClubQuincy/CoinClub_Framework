@@ -1,0 +1,21 @@
+{
+    "symbol": "HOTETH",
+    "priceChange": "-4.7700",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00000319",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00000357",
+    "lowPrice": "0.00000317",
+    "volume": "115.25166169000000000000000000000000",
+    "quoteVolume": "115.25166169000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 115.25166169
+}

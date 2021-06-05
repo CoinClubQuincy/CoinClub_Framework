@@ -1,0 +1,21 @@
+{
+    "symbol": "WANBTC",
+    "priceChange": "1.1500",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00002456",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00002555",
+    "lowPrice": "0.00002390",
+    "volume": "10.10477238800000000000000000000000",
+    "quoteVolume": "10.10477238800000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 10.104772388
+}

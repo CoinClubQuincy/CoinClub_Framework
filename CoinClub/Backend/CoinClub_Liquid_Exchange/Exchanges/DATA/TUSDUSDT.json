@@ -1,0 +1,21 @@
+{
+    "symbol": "TUSDUSDT",
+    "priceChange": "0.0100",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "1.0003",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "1.0008",
+    "lowPrice": "0.9900",
+    "volume": "1497711.11093900000000000000000000000000",
+    "quoteVolume": "1497711.11093900000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 1497711.110939
+}

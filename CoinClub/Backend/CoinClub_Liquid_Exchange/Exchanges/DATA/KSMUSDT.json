@@ -1,0 +1,21 @@
+{
+    "symbol": "KSMUSDT",
+    "priceChange": "25.7400",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "450.112",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "476.710",
+    "lowPrice": "286.872",
+    "volume": "1320271.84454400000000000000000000000000",
+    "quoteVolume": "1320271.84454400000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 1320271.844544
+}

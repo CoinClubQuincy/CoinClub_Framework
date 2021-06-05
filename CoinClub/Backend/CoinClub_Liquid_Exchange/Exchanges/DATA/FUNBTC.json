@@ -1,0 +1,21 @@
+{
+    "symbol": "FUNBTC",
+    "priceChange": "3.3300",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00000062",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00000068",
+    "lowPrice": "0.00000058",
+    "volume": "2.60813556000000000000000000000000",
+    "quoteVolume": "2.60813556000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 2.60813556
+}

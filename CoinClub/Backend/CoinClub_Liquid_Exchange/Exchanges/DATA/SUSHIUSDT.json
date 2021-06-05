@@ -1,0 +1,21 @@
+{
+    "symbol": "SUSHIUSDT",
+    "priceChange": "8.0100",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "12.6958",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "13.5230",
+    "lowPrice": "10.1077",
+    "volume": "1187567.82989290000000000000000000000000",
+    "quoteVolume": "1187567.82989290000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 1187567.8298929
+}

@@ -1,0 +1,21 @@
+{
+    "symbol": "BANANAUSDT",
+    "priceChange": "10.9000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "3.671",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "3.980",
+    "lowPrice": "3.207",
+    "volume": "43568.35824600000000000000000000000000",
+    "quoteVolume": "43568.35824600000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 43568.358246
+}

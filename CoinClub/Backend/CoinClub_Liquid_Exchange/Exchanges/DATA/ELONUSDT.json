@@ -1,0 +1,21 @@
+{
+    "symbol": "ELONUSDT",
+    "priceChange": "15.3800",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00000015",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00000021",
+    "lowPrice": "0.00000010",
+    "volume": "101683.50595447000000000000000000000000",
+    "quoteVolume": "101683.50595447000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 101683.50595447
+}

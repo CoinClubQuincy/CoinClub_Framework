@@ -1,0 +1,21 @@
+{
+    "symbol": "WTCBTC",
+    "priceChange": "-0.6500",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00002292",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00002344",
+    "lowPrice": "0.00002206",
+    "volume": "3.38933984840000000000000000000000",
+    "quoteVolume": "3.38933984840000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 3.3893398484
+}

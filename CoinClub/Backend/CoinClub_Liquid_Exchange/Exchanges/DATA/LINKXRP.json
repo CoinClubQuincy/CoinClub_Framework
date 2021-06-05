@@ -1,0 +1,21 @@
+{
+    "symbol": "LINKXRP",
+    "priceChange": "-0.0500",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "30.119853",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "30.932767",
+    "lowPrice": "29.795488",
+    "volume": "5135679.88692700000000000000000000000000",
+    "quoteVolume": "5135679.88692700000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 5135679.886927
+}

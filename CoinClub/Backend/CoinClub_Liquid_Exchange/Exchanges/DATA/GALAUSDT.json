@@ -1,0 +1,21 @@
+{
+    "symbol": "GALAUSDT",
+    "priceChange": "2.8600",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.01256",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.01290",
+    "lowPrice": "0.01170",
+    "volume": "40769.37713900000000000000000000000000",
+    "quoteVolume": "40769.37713900000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 40769.377139
+}

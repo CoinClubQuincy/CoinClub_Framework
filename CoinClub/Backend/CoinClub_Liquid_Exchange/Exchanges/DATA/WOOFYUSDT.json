@@ -1,0 +1,21 @@
+{
+    "symbol": "WOOFYUSDT",
+    "priceChange": "0.6000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.04126",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.04768",
+    "lowPrice": "0.04101",
+    "volume": "5613.63728000000000000000000000000000",
+    "quoteVolume": "5613.63728000000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 5613.63728
+}

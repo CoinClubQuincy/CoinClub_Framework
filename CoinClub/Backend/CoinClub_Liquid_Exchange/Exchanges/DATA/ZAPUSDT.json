@@ -1,0 +1,21 @@
+{
+    "symbol": "ZAPUSDT",
+    "priceChange": "-3.2000",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.08265",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.08840",
+    "lowPrice": "0.08214",
+    "volume": "30128.79420300000000000000000000000000",
+    "quoteVolume": "30128.79420300000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 30128.794203
+}

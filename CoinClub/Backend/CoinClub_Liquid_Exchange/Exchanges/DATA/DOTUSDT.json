@@ -1,0 +1,21 @@
+{
+    "symbol": "DOTUSDT",
+    "priceChange": "15.5100",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "25.6960",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "26.9407",
+    "lowPrice": "19.1820",
+    "volume": "4564373.58417500000000000000000000000000",
+    "quoteVolume": "4564373.58417500000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 4564373.584175
+}

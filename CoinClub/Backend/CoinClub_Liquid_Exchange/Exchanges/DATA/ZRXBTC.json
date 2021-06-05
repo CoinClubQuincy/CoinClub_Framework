@@ -1,0 +1,21 @@
+{
+    "symbol": "ZRXBTC",
+    "priceChange": "7.7300",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00003009",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00003289",
+    "lowPrice": "0.00002761",
+    "volume": "32.61377695000000000000000000000000",
+    "quoteVolume": "32.61377695000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 32.61377695
+}

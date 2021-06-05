@@ -1,0 +1,21 @@
+{
+    "symbol": "AIONBTC",
+    "priceChange": "0.7200",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00000558",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00000574",
+    "lowPrice": "0.00000546",
+    "volume": "8.77351111190000000000000000000000",
+    "quoteVolume": "8.77351111190000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 8.7735111119
+}

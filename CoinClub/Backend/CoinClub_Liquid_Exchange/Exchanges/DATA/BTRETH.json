@@ -1,0 +1,21 @@
+{
+    "symbol": "BTRETH",
+    "priceChange": "-6.9400",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "0.00006159",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "0.00006767",
+    "lowPrice": "0.00005849",
+    "volume": "838.48568212600000000000000000000000",
+    "quoteVolume": "838.48568212600000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 838.485682126
+}

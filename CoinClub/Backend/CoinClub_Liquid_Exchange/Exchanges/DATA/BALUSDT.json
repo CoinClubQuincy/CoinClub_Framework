@@ -1,0 +1,21 @@
+{
+    "symbol": "BALUSDT",
+    "priceChange": "8.3900",
+    "priceChangePercent": null,
+    "weightedAvgPrice": null,
+    "prevClosePrice": null,
+    "lastPrice": "30.814",
+    "lastQty": null,
+    "bidPrice": null,
+    "askPrice": null,
+    "openPrice": null,
+    "highPrice": "33.243",
+    "lowPrice": "28.268",
+    "volume": "65942.82004900000000000000000000000000",
+    "quoteVolume": "65942.82004900000000000000000000000000",
+    "openTime": 0,
+    "closeTime": 0,
+    "firstId": 0,
+    "lastId": 0,
+    "count": 65942.820049
+}
