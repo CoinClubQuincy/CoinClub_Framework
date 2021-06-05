@@ -1,4 +1,4 @@
-#    **CoinClub** Framework **[XRP]                                             [TEST_functions & Error handeling] Python Documentation** 
+#    **CoinClub** Framework **[XRP]                                              Python Documentation** 
 
 ######    **version 1.0.1**
 
