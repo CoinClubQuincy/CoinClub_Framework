@@ -1,6 +1,6 @@
 #    **CoinClub** Framework **[XRP]                                              Python Documentation** 
 
-######    **version 1.0.1**
+######    **version 0.0.9 WARNING BETA in unstable build**
 
 ###### **Project Devs:** [ R Quincy Jones ]
 
