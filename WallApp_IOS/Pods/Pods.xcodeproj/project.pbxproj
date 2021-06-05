@@ -1,0 +1,1754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08E88902EDB5EF7D424C72B48FAA27A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		0968524ED4DE8DF7834055C5B6089D72 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D4CDA4DF96073A8685E6CE48A1E615 /* MBProgressHUD-dummy.m */; };
+		0B3C9C2FE71F741EA5A690E3C0A6BF33 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE68A911D62A711EAB9C07C22DB14D69 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BB441BCE200C257AA2E2B121851BAC9 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1200F88DCF7921916A1CD107CF14D8 /* SVIndefiniteAnimatedView.m */; };
+		0D301F4322CB9C40CECBAF003710FA65 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E0300497C3AA6E8E9B937A5F73CDFD2 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F9670E698BF8F5CE6F60451E589CB89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		10072DC064AF68A02E7C242991AB1CBF /* TOPasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D8317D10D28DE11FCCFCEFE346E761 /* TOPasscodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1207693E6AF862D8C87B6557297E122A /* TOPasscodeCircleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A32CD477C6FAF2D6E90F7AE7280DF5EC /* TOPasscodeCircleImage.m */; };
+		1DF0DEB77D26401892D4E76463DD3949 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5448541C00F8D4D873434C08FF93B1CB /* IQPreviousNextView.swift */; };
+		1E5668ED93ACA60ABC63AAF3DE0DC34C /* TOPasscodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D135031471A6FA5A2014AC6D7760DCA7 /* TOPasscodeView.m */; };
+		1E66A4899FC855FC61F13721CF63EB35 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F126708C99086B1CC9191EF92C737C /* IQKeyboardReturnKeyHandler.swift */; };
+		1F1DE3A0B4D20A1227162CCA99E8FCA7 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0564B1C442F2337952B339333E322A0A /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21E14EAC345850B9D6D74A02D898BF53 /* TOSettingsKeypadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D72768C919E1B2E9248AC8405E456400 /* TOSettingsKeypadImage.m */; };
+		22473E9F3612080F08693631A7DBF4A5 /* TOPasscodeSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B1C8D3C5148A6D77B45C0F8B1EC267 /* TOPasscodeSettingsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2353E041C15CA223438BDEED56904026 /* Pods-SmartCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CB322246943E90EFEBAC22BE85B23C /* Pods-SmartCase-dummy.m */; };
+		235AEB9303852A2AF4A4606C99E64C09 /* TOPasscodeSettingsKeypadButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6791AD2A24144BC7E4D41D6F140C68A0 /* TOPasscodeSettingsKeypadButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2404D09BB992A676F37003B1AED60B15 /* TOPasscodeSettingsWarningLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D99E5DBD92CFDC89BDC99A740A1A94A /* TOPasscodeSettingsWarningLabel.m */; };
+		2550FC51132812BAAF3EAA413F23790D /* TOPasscodeSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8B5D54E35AA3B57B39CFBCB752FBB1 /* TOPasscodeSettingsViewController.m */; };
+		25A195CFCA17BD56D98B207C3F709513 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89163E94743FDDD60913C47150E225B /* UIKit.framework */; };
+		28A794912ED1E06B05D96DF5ED0AED19 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A12607CB8A019CA96F0E565B1CD5A6A9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A2FE216328BFC23AF9D30EAEFAA2303 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F15FC94CEED853D09B8E839527141E4 /* IQKeyboardManager.bundle */; };
+		3285188513F859E100A7BBE29B36599D /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD986641BD14A5DAADE6731B360F00C2 /* IQUIView+IQKeyboardToolbar.swift */; };
+		33350695F55CEFEB0EF1715A5F22FAA4 /* TOPasscodeInputField.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF4272DBCBD6238B1171919B5384D57 /* TOPasscodeInputField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37EE9F156A104BBBBC846713F0341D3E /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3BD05E6FAE5C4AE8F84B3BD640266B /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C4B59466B0215FA56334E1653FC599F /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D012D3B668BA796B676DDF25AD5F5462 /* SVRadialGradientLayer.m */; };
+		3C819C39A2700E3F0F67F45D310662E1 /* TOPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC48BD11614015D644BA87A1F4D9F12 /* TOPasscodeViewController.m */; };
+		3D1474C367C73546A9258C4A1BFC9293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		3D77B7DC6449E6CC41C0FF73714B6BE9 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FCA952C33AF105B0370070A5CB478A /* IQNSArray+Sort.swift */; };
+		3EDA7575644614ACD562D23759D18DE8 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4F5472780E8DA4B0316B04B924A10 /* IQUIView+Hierarchy.swift */; };
+		3EE679252C26FE5A3816BDBE854387F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */; };
+		42CF4C89E565405AAF54BA2D49F26195 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */; };
+		4B0F9347718263C67557054C2E15DE61 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6576A22A885A39428528EF51680DE73A /* IQTextView.swift */; };
+		53E0A72846668C4BDCBAEF9C879987ED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */; };
+		56281077E890D56154ABA8C6C9FFF1A2 /* TOPasscodeViewControllerAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = B14D8CE23DC65E3CD0FD5E2E2BA242E3 /* TOPasscodeViewControllerAnimatedTransitioning.m */; };
+		5939499A16FC0C349C94A634D25C4EE7 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3A8589FF1FF129A41FBEC9346921B /* IQUIScrollView+Additions.swift */; };
+		598527A1D24BD6C0C9F741E8F84DFE17 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CCBA664BB6FA657697822D7A5032D7 /* IQKeyboardManagerConstants.swift */; };
+		5CCD7C8E96D59CEFD2E3912602F37A8D /* Pods-SmartCaseUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81CE008BA57C89FCE64B83F3416D0475 /* Pods-SmartCaseUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F426C4D26B7F07CE099D50D4D510F9D /* TOPasscodeCircleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FBA15AA33BE98808190F3013391CF9 /* TOPasscodeCircleImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64F354609DA76AD80DD40850DB763562 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E30E88D75D6C7FFBD3DC5AEB2AAD79 /* IQKeyboardManagerSwift-dummy.m */; };
+		65E8784CF68BB8B535E26BEAC24A9E2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		6648E2FC819C94F6F4AED50F852C88A3 /* TOPasscodeViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F33A82976878703439DBEC75E76E6C03 /* TOPasscodeViewController-dummy.m */; };
+		777380D8E3E40C318702127830661A24 /* TOPasscodeInputField.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F5E87030FFBFA16CADE70795750A47 /* TOPasscodeInputField.m */; };
+		7FE321828ECA1D78CCF8A2892A30438B /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA199158A735349E2DFEA0D2814431A /* IQUIViewController+Additions.swift */; };
+		819481635620C9D85C032B3F9AC71C33 /* TOPasscodeSettingsKeypadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 752DDB0328240B7B3121B376857CC77C /* TOPasscodeSettingsKeypadButton.m */; };
+		83B0E4A33786C45550CBAA86DD9E400B /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E7B0B8F2D0EF308F96D80F879EA27B /* IQToolbar.swift */; };
+		854D01A8933E1200F6CB80F34A6054BA /* TOPasscodeKeypadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990BA4AD53543C6A27617F8186E8BE08 /* TOPasscodeKeypadView.m */; };
+		85B36C31951482DB159120591CF1D936 /* Pods-SmartCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E34FD9F8F659A14FC9222B56B08EC247 /* Pods-SmartCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85BBC03D9592A2B5FF980146AAD4C2AB /* TOSettingsKeypadImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4922171F4A4BFA28D4598A23D7CD3AF6 /* TOSettingsKeypadImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87AD9D97F0F94C85720FC018235CD8A9 /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BFA857237126AAE986796CAE6612970 /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8901F98D831C7E17F2FEAD2E8C1D663D /* TOPasscodeSettingsKeypadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B92D4416992D5DF1DAFB24FBCBC0CF4 /* TOPasscodeSettingsKeypadView.m */; };
+		895F561E7472B75F5765916F25C6DA9F /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C035B3D9674ED2C774EDCCA18AFD4B /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		897C38C8E3C31950E2E93A4D6937CCC4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2A8D14E26B330CB87B2480D52617D0 /* MBProgressHUD.m */; };
+		8C24D10078B6686E6A81E92E81EED4D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */; };
+		8F3DCFFE6E81EE2E858E16C06226AE72 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B1749825B9BAA9886FC1D079962EC59D /* SVProgressHUD.bundle */; };
+		903933C1CC53083B04FD6907B0C75A56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		9453EC4192CA3C95DA18667AEBA33F86 /* Pods-SmartCaseUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4CEB23CEDCEBB10ADFCA5D00C88C58 /* Pods-SmartCaseUITests-dummy.m */; };
+		9F632B62805627E70C65ED65A0365AF4 /* TOPasscodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = E41FAE3958D93F949D81AF20AD864482 /* TOPasscodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C9B712485ECD167485B0DB7DDE407A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		A5BF8DBDD8660DBCFE712657F3D82BDA /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E26199091B4A9E97E33A08938590D30 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A61E8BD879CE37DDE2490B0F9CE4B07F /* Pods-SmartCaseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C406C333EA023B47F3619A11764960C /* Pods-SmartCaseTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6C2E3A62525C77B961324DAA1CF713D /* TOPasscodeViewControllerAnimatedTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C173B41BBA2461E2362D3AE8994966 /* TOPasscodeViewControllerAnimatedTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A80DD5DD1D7622113845EF189C7F9605 /* TOPasscodeSettingsWarningLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 614C8BDC5679A3E340949FC33BF83CEA /* TOPasscodeSettingsWarningLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAFB028954C9F9CC427615D9D86CCA78 /* TOPasscodeFixedInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 19071E477294686BBA104C67FAC1CB1D /* TOPasscodeFixedInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEC0B6F24C7CB8874582EFBFCDBCED9E /* TOPasscodeFixedInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A4D2C824BC5BA98A10266EC7C95FB8 /* TOPasscodeFixedInputView.m */; };
+		AFF0FB93A25F8E4CC7BAF445358639FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		B46D3C1F6AF06C3BFB48CC281CD57155 /* TOPasscodeViewContentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E8BD982E9282A4B9FABD6438BB5B66 /* TOPasscodeViewContentLayout.m */; };
+		B65964E491E9CA1E72D620B7E3A9C741 /* TOPasscodeViewContentLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 093C3784A5F876CA8FBF5DB1DE6F2A2C /* TOPasscodeViewContentLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB4FCDEB31262E21F9021F22B2A73FAC /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126568859DE7E8AFC29AEB6396277D6F /* IQTitleBarButtonItem.swift */; };
+		C0C3B80150124096568484E245F6AB8A /* TOPasscodeKeypadView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6F00C338C1DC6DE7D1B5FF1ABC9057 /* TOPasscodeKeypadView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49E6937181A2CABFADA04D1C816276B /* Pods-SmartCaseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B8F7C08FFEF196D38045B54C8BD8BD /* Pods-SmartCaseTests-dummy.m */; };
+		C8A1CACA0FB94ADC217FCC845F6EECE8 /* TOPasscodeCircleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = AD34E50D875961ADE3CB3A378374BD46 /* TOPasscodeCircleButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE6BAE070E573E1FABA820360F22737B /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10B072B7C3971C7291C1BEF11E87CC /* IQBarButtonItem.swift */; };
+		CF7ECF53C8092DB5A45FD449F3D376CC /* TOPasscodeButtonLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B647B43DEE9BCEE02F4078418A0E37 /* TOPasscodeButtonLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0970785A1FBEAAE7C890BCB9F686DF4 /* TOPasscodeSettingsKeypadView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E32BD4DA56AB53431FA5A29A0327AD /* TOPasscodeSettingsKeypadView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D420AE9AA858F53CC3160BC07632E593 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6492C65818E94764572C7E9A94CBE181 /* SVProgressHUD-dummy.m */; };
+		D42B5E3CD792D1CF6EE9674A9155C066 /* TOPasscodeButtonLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EDC8EC0D7103DB6BFF60807B0D0DB4 /* TOPasscodeButtonLabel.m */; };
+		D862A7494209521BAF25255C518FE14C /* TOPasscodeVariableInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 172973929C565BFAADF8153DF7263931 /* TOPasscodeVariableInputView.m */; };
+		D8B5A826C93F1D35D93B8FC3EA48D423 /* TOPasscodeViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5297F03E9DCADC8520D00CC24053EC /* TOPasscodeViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA0178313FBD6AC80839515599E676B1 /* TOPasscodeCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E8134923674D398B36B75DE174176FD /* TOPasscodeCircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E08E6058811BE93DBDA89E76F0063DFB /* TOPasscodeCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 362AEB0290695690D0DF096F921B78CD /* TOPasscodeCircleView.m */; };
+		E1892F605D93810A9FBE0902043EB8AF /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5517B9586D93CBA065D7CAB86E79840 /* IQKeyboardManager.swift */; };
+		E19EEDD52F1498E1977F2E196AD892A8 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 429937809CE10D5AFEA34144F494E783 /* SVProgressAnimatedView.m */; };
+		E1E729DD19EDA12DF13E1A4CF6D748C8 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5AD5E03ABA34FB9A7C34B5BC1FBA54 /* IQKeyboardManagerConstantsInternal.swift */; };
+		E5F3A54633612E5211321FD4DA7A930B /* TOPasscodeCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4AD122541FEA058185BB0A9A2BF222 /* TOPasscodeCircleButton.m */; };
+		E5F869908C4EA33EDF12D6E9C44584D5 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A40ABFB751FEB26AA59CA115496C3761 /* SVProgressHUD.m */; };
+		E8F5CC4714C4AB1D6FE8FC85651DF3A3 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64946CF8685567BD93CD8033677F29F /* IQInvocation.swift */; };
+		EE94677D8D632888E090830E95DABC7F /* TOPasscodeViewControllerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD4A7F57C0AFC72A1924AC1DEF101C0 /* TOPasscodeViewControllerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC5EE727FA2DF9D913B4E2A48B57DAD /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11BF78CAE7C929ADC56F0F92D4AC482 /* IQUITextFieldView+Additions.swift */; };
+		EFF00C12F5CBB6C4123B2AE334CB569A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */; };
+		FB223D7122B6D8DDE83973D738D69699 /* TOPasscodeVariableInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45269E7DC27F88DF796C7B97B63CBFDF /* TOPasscodeVariableInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23C5C89746CA4BBBD1AB140B863A7434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5209899000D595DE3BDCC105E47FE4CE;
+			remoteInfo = "Pods-SmartCase";
+		};
+		57A0E0B1D49861BB0B7A5D2F22AB975B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B75737D6365D95A5941E5848C25AA7D;
+			remoteInfo = TOPasscodeViewController;
+		};
+		91E268786A3ABA42CFF6DE70840F5D56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41FA54D12162DAD51D02FC58A2CD5034;
+			remoteInfo = MBProgressHUD;
+		};
+		A854765EBF58F0C69A59BFB6B4444011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C235F77E101E742652CCF98FFDFA5182;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		E2CF638B7E5379049DA8E15E434501F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA59377510E7B5F83482A566AE5E9DAF;
+			remoteInfo = SVProgressHUD;
+		};
+		F6119EC1FE89029EFCACBF6CCDF63264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5209899000D595DE3BDCC105E47FE4CE;
+			remoteInfo = "Pods-SmartCase";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FBA15AA33BE98808190F3013391CF9 /* TOPasscodeCircleImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeCircleImage.h; path = TOPasscodeViewController/Models/TOPasscodeCircleImage.h; sourceTree = "<group>"; };
+		0564B1C442F2337952B339333E322A0A /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		093C3784A5F876CA8FBF5DB1DE6F2A2C /* TOPasscodeViewContentLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeViewContentLayout.h; path = TOPasscodeViewController/Models/TOPasscodeViewContentLayout.h; sourceTree = "<group>"; };
+		0B8B5D54E35AA3B57B39CFBCB752FBB1 /* TOPasscodeSettingsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeSettingsViewController.m; path = TOPasscodeViewController/TOPasscodeSettingsViewController.m; sourceTree = "<group>"; };
+		0BE42668B00A1F531BC7F6590284D96B /* Pods-SmartCaseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmartCaseTests.modulemap"; sourceTree = "<group>"; };
+		0E0A78B613C5990F2F2C5DC7861D842B /* Pods-SmartCaseUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartCaseUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E8134923674D398B36B75DE174176FD /* TOPasscodeCircleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeCircleView.h; path = TOPasscodeViewController/Views/Shared/TOPasscodeCircleView.h; sourceTree = "<group>"; };
+		0F5DEC6C0D65366A8BAC711B447E4B5E /* Pods-SmartCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartCase.release.xcconfig"; sourceTree = "<group>"; };
+		12465F6F6C955FF9C8EBD4496C6BF7DD /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		126568859DE7E8AFC29AEB6396277D6F /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		172973929C565BFAADF8153DF7263931 /* TOPasscodeVariableInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeVariableInputView.m; path = TOPasscodeViewController/Views/Shared/TOPasscodeVariableInputView.m; sourceTree = "<group>"; };
+		19071E477294686BBA104C67FAC1CB1D /* TOPasscodeFixedInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeFixedInputView.h; path = TOPasscodeViewController/Views/Shared/TOPasscodeFixedInputView.h; sourceTree = "<group>"; };
+		193E18CAD3C9149BC42321B60CA5F8C5 /* TOPasscodeViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TOPasscodeViewController.modulemap; sourceTree = "<group>"; };
+		19C0307ECBFE7B1491C8E92A3A369552 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA270A4BE0744199C86904CF764B335 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		1DD905263D757D4EEECEF99CFBA6D966 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23FCA952C33AF105B0370070A5CB478A /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		27AB5BF737BC95377FC0CF9D7CDDEAD3 /* TOPasscodeViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TOPasscodeViewController.xcconfig; sourceTree = "<group>"; };
+		28A912209790ED8315BB2BB29F857EB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291A1448B15897E5AA04E3998AA0727A /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		2A1200F88DCF7921916A1CD107CF14D8 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		2A4CEB23CEDCEBB10ADFCA5D00C88C58 /* Pods-SmartCaseUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartCaseUITests-dummy.m"; sourceTree = "<group>"; };
+		2A5297F03E9DCADC8520D00CC24053EC /* TOPasscodeViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOPasscodeViewController-umbrella.h"; sourceTree = "<group>"; };
+		2BFA857237126AAE986796CAE6612970 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		2C406C333EA023B47F3619A11764960C /* Pods-SmartCaseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartCaseTests-umbrella.h"; sourceTree = "<group>"; };
+		2C6F00C338C1DC6DE7D1B5FF1ABC9057 /* TOPasscodeKeypadView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeKeypadView.h; path = TOPasscodeViewController/Views/Main/TOPasscodeKeypadView.h; sourceTree = "<group>"; };
+		34D4F5472780E8DA4B0316B04B924A10 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		3625754AC0CA6553F1ACCC890FEFBD67 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		362AEB0290695690D0DF096F921B78CD /* TOPasscodeCircleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeCircleView.m; path = TOPasscodeViewController/Views/Shared/TOPasscodeCircleView.m; sourceTree = "<group>"; };
+		37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3F15DABC6110577E0E400ADB8765D57A /* Pods_SmartCaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartCaseTests.framework; path = "Pods-SmartCaseTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		429937809CE10D5AFEA34144F494E783 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		44518E491F0E7374871108B362DB9F7B /* Pods-SmartCaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartCaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45269E7DC27F88DF796C7B97B63CBFDF /* TOPasscodeVariableInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeVariableInputView.h; path = TOPasscodeViewController/Views/Shared/TOPasscodeVariableInputView.h; sourceTree = "<group>"; };
+		46F15252B286FE227C158E1F95E79B63 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		4813EAA8B460FE28E3CF15E45D2AA738 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4922171F4A4BFA28D4598A23D7CD3AF6 /* TOSettingsKeypadImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOSettingsKeypadImage.h; path = TOPasscodeViewController/Models/TOSettingsKeypadImage.h; sourceTree = "<group>"; };
+		5448541C00F8D4D873434C08FF93B1CB /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		55535B26F8AE54E301D4A6D4010F5439 /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
+		55B647B43DEE9BCEE02F4078418A0E37 /* TOPasscodeButtonLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeButtonLabel.h; path = TOPasscodeViewController/Views/Shared/TOPasscodeButtonLabel.h; sourceTree = "<group>"; };
+		55D7BE34FD2B176257F1E7F306BE0482 /* Pods-SmartCase-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartCase-resources.sh"; sourceTree = "<group>"; };
+		59DF487B5B0A054EDEC6BC2F44EEC22B /* Pods-SmartCaseUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmartCaseUITests.modulemap"; sourceTree = "<group>"; };
+		5D99E5DBD92CFDC89BDC99A740A1A94A /* TOPasscodeSettingsWarningLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeSettingsWarningLabel.m; path = TOPasscodeViewController/Views/Settings/TOPasscodeSettingsWarningLabel.m; sourceTree = "<group>"; };
+		5FD4A7F57C0AFC72A1924AC1DEF101C0 /* TOPasscodeViewControllerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeViewControllerConstants.h; path = TOPasscodeViewController/Supporting/TOPasscodeViewControllerConstants.h; sourceTree = "<group>"; };
+		614C8BDC5679A3E340949FC33BF83CEA /* TOPasscodeSettingsWarningLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeSettingsWarningLabel.h; path = TOPasscodeViewController/Views/Settings/TOPasscodeSettingsWarningLabel.h; sourceTree = "<group>"; };
+		623004A83AE8CB401E5EEAF183C3FDBD /* Pods_SmartCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartCase.framework; path = "Pods-SmartCase.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B1C8D3C5148A6D77B45C0F8B1EC267 /* TOPasscodeSettingsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeSettingsViewController.h; path = TOPasscodeViewController/TOPasscodeSettingsViewController.h; sourceTree = "<group>"; };
+		6492C65818E94764572C7E9A94CBE181 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		64A9B860457D9AA7FA6709CBFE766928 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		6576A22A885A39428528EF51680DE73A /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		6791AD2A24144BC7E4D41D6F140C68A0 /* TOPasscodeSettingsKeypadButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeSettingsKeypadButton.h; path = TOPasscodeViewController/Views/Settings/TOPasscodeSettingsKeypadButton.h; sourceTree = "<group>"; };
+		68EDC8EC0D7103DB6BFF60807B0D0DB4 /* TOPasscodeButtonLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeButtonLabel.m; path = TOPasscodeViewController/Views/Shared/TOPasscodeButtonLabel.m; sourceTree = "<group>"; };
+		691F4D5786EC044453D1E81F067FBEEE /* Pods-SmartCase-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartCase-frameworks.sh"; sourceTree = "<group>"; };
+		6CC826FE49646C00A7BD474E4DFF82D3 /* Pods-SmartCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmartCase.modulemap"; sourceTree = "<group>"; };
+		6D5747A66961CCFED85289039584A0C5 /* Pods-SmartCaseTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartCaseTests-frameworks.sh"; sourceTree = "<group>"; };
+		7313E1DC231EC32B420815050A1592F1 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		73B7EF717B93AF57CB0D2E4A7DDD6118 /* Pods-SmartCaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartCaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		752DDB0328240B7B3121B376857CC77C /* TOPasscodeSettingsKeypadButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeSettingsKeypadButton.m; path = TOPasscodeViewController/Views/Settings/TOPasscodeSettingsKeypadButton.m; sourceTree = "<group>"; };
+		75C035B3D9674ED2C774EDCCA18AFD4B /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		76E8BD982E9282A4B9FABD6438BB5B66 /* TOPasscodeViewContentLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeViewContentLayout.m; path = TOPasscodeViewController/Models/TOPasscodeViewContentLayout.m; sourceTree = "<group>"; };
+		77CB322246943E90EFEBAC22BE85B23C /* Pods-SmartCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartCase-dummy.m"; sourceTree = "<group>"; };
+		7E3BD05E6FAE5C4AE8F84B3BD640266B /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		7FEAECD24DB1A21462467AAEC6ECB6B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CE008BA57C89FCE64B83F3416D0475 /* Pods-SmartCaseUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartCaseUITests-umbrella.h"; sourceTree = "<group>"; };
+		86587FCF33F2CF3719165B9EB3C9753E /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0F7FBA6642AEA6E6F589C36A8CD7EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B843B407F5F2AF5FC0C1C7157727635 /* Pods-SmartCase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartCase-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B92D4416992D5DF1DAFB24FBCBC0CF4 /* TOPasscodeSettingsKeypadView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeSettingsKeypadView.m; path = TOPasscodeViewController/Views/Settings/TOPasscodeSettingsKeypadView.m; sourceTree = "<group>"; };
+		8E0300497C3AA6E8E9B937A5F73CDFD2 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		8F15FC94CEED853D09B8E839527141E4 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		8FE40517B919ADBBD5913202DB473940 /* Pods-SmartCaseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartCaseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90DA00709458934A24D0DA21941A00E4 /* TOPasscodeViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TOPasscodeViewController.framework; path = TOPasscodeViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95A4D2C824BC5BA98A10266EC7C95FB8 /* TOPasscodeFixedInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeFixedInputView.m; path = TOPasscodeViewController/Views/Shared/TOPasscodeFixedInputView.m; sourceTree = "<group>"; };
+		95E30E88D75D6C7FFBD3DC5AEB2AAD79 /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+		971DACB33D81CBF5E4A756DC0CFAAFFE /* Pods_SmartCaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartCaseUITests.framework; path = "Pods-SmartCaseUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		990BA4AD53543C6A27617F8186E8BE08 /* TOPasscodeKeypadView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeKeypadView.m; path = TOPasscodeViewController/Views/Main/TOPasscodeKeypadView.m; sourceTree = "<group>"; };
+		9E26199091B4A9E97E33A08938590D30 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9E990B152ECF34A4F50141EDCFBA01CC /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		9F1BC9E9624A4223F04E0D42627E9709 /* TOPasscodeViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOPasscodeViewController-prefix.pch"; sourceTree = "<group>"; };
+		A12607CB8A019CA96F0E565B1CD5A6A9 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		A32CD477C6FAF2D6E90F7AE7280DF5EC /* TOPasscodeCircleImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeCircleImage.m; path = TOPasscodeViewController/Models/TOPasscodeCircleImage.m; sourceTree = "<group>"; };
+		A40ABFB751FEB26AA59CA115496C3761 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		A42F31B8DC7715DD4E54A487957C3713 /* Pods-SmartCaseUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartCaseUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9B86E1E0E9D1A034F52B80F4D5BBBBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB4AD122541FEA058185BB0A9A2BF222 /* TOPasscodeCircleButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeCircleButton.m; path = TOPasscodeViewController/Views/Main/TOPasscodeCircleButton.m; sourceTree = "<group>"; };
+		AB4D16E28B8511AD9FD8944F442DD6F8 /* Pods-SmartCaseUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartCaseUITests-resources.sh"; sourceTree = "<group>"; };
+		AD34E50D875961ADE3CB3A378374BD46 /* TOPasscodeCircleButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeCircleButton.h; path = TOPasscodeViewController/Views/Main/TOPasscodeCircleButton.h; sourceTree = "<group>"; };
+		B14D8CE23DC65E3CD0FD5E2E2BA242E3 /* TOPasscodeViewControllerAnimatedTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeViewControllerAnimatedTransitioning.m; path = TOPasscodeViewController/Models/TOPasscodeViewControllerAnimatedTransitioning.m; sourceTree = "<group>"; };
+		B1749825B9BAA9886FC1D079962EC59D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		B26E9BD338DC9FC72A33A98CB9EB0116 /* Pods-SmartCaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartCaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B3F5E87030FFBFA16CADE70795750A47 /* TOPasscodeInputField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeInputField.m; path = TOPasscodeViewController/Views/Shared/TOPasscodeInputField.m; sourceTree = "<group>"; };
+		B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B76F274449B111C923D9B71943C53B5F /* Pods-SmartCaseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartCaseTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC1604D9F0CB89AA832DF5F9B9580F14 /* Pods-SmartCaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartCaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD986641BD14A5DAADE6731B360F00C2 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		BDC48BD11614015D644BA87A1F4D9F12 /* TOPasscodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeViewController.m; path = TOPasscodeViewController/TOPasscodeViewController.m; sourceTree = "<group>"; };
+		C11BF78CAE7C929ADC56F0F92D4AC482 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		C273C7B0B084B4BF1FD7DBC4DDC62F1E /* Pods-SmartCaseTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartCaseTests-resources.sh"; sourceTree = "<group>"; };
+		C2E7B0B8F2D0EF308F96D80F879EA27B /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		C64946CF8685567BD93CD8033677F29F /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
+		C9B8F7C08FFEF196D38045B54C8BD8BD /* Pods-SmartCaseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartCaseTests-dummy.m"; sourceTree = "<group>"; };
+		CD2A8D14E26B330CB87B2480D52617D0 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CE68A911D62A711EAB9C07C22DB14D69 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		CF10B072B7C3971C7291C1BEF11E87CC /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		D012D3B668BA796B676DDF25AD5F5462 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		D135031471A6FA5A2014AC6D7760DCA7 /* TOPasscodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOPasscodeView.m; path = TOPasscodeViewController/Views/Main/TOPasscodeView.m; sourceTree = "<group>"; };
+		D2CCBA664BB6FA657697822D7A5032D7 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		D4108E776A75CBFB39A938CFAEEF3630 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4331CF33D893FDB04D80143A9979929 /* Pods-SmartCaseUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartCaseUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D4F126708C99086B1CC9191EF92C737C /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		D5517B9586D93CBA065D7CAB86E79840 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D72768C919E1B2E9248AC8405E456400 /* TOSettingsKeypadImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOSettingsKeypadImage.m; path = TOPasscodeViewController/Models/TOSettingsKeypadImage.m; sourceTree = "<group>"; };
+		D7D4CDA4DF96073A8685E6CE48A1E615 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		DEA199158A735349E2DFEA0D2814431A /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		DF51D948934359AE35425A696D3BB86F /* Pods-SmartCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartCase.debug.xcconfig"; sourceTree = "<group>"; };
+		E0C173B41BBA2461E2362D3AE8994966 /* TOPasscodeViewControllerAnimatedTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeViewControllerAnimatedTransitioning.h; path = TOPasscodeViewController/Models/TOPasscodeViewControllerAnimatedTransitioning.h; sourceTree = "<group>"; };
+		E0F3A8589FF1FF129A41FBEC9346921B /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		E34FD9F8F659A14FC9222B56B08EC247 /* Pods-SmartCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartCase-umbrella.h"; sourceTree = "<group>"; };
+		E41FAE3958D93F949D81AF20AD864482 /* TOPasscodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeView.h; path = TOPasscodeViewController/Views/Main/TOPasscodeView.h; sourceTree = "<group>"; };
+		E89163E94743FDDD60913C47150E225B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E8D8C800328433429657E9019CC3E7F5 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		EA5AD5E03ABA34FB9A7C34B5BC1FBA54 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		EFA6A6EC45D1305045C9124E49090F28 /* Pods-SmartCase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartCase-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0D8317D10D28DE11FCCFCEFE346E761 /* TOPasscodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeViewController.h; path = TOPasscodeViewController/TOPasscodeViewController.h; sourceTree = "<group>"; };
+		F33A82976878703439DBEC75E76E6C03 /* TOPasscodeViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TOPasscodeViewController-dummy.m"; sourceTree = "<group>"; };
+		F7E32BD4DA56AB53431FA5A29A0327AD /* TOPasscodeSettingsKeypadView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeSettingsKeypadView.h; path = TOPasscodeViewController/Views/Settings/TOPasscodeSettingsKeypadView.h; sourceTree = "<group>"; };
+		FFF4272DBCBD6238B1171919B5384D57 /* TOPasscodeInputField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOPasscodeInputField.h; path = TOPasscodeViewController/Views/Shared/TOPasscodeInputField.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11818B00E3DF9394903D42244755C4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E8784CF68BB8B535E26BEAC24A9E2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A5C814ACEB86CB06CD6C51383982FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C24D10078B6686E6A81E92E81EED4D8 /* CoreGraphics.framework in Frameworks */,
+				3D1474C367C73546A9258C4A1BFC9293 /* Foundation.framework in Frameworks */,
+				53E0A72846668C4BDCBAEF9C879987ED /* QuartzCore.framework in Frameworks */,
+				25A195CFCA17BD56D98B207C3F709513 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE5A59546EEAD355B8CA42D80344A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C9B712485ECD167485B0DB7DDE407A /* Foundation.framework in Frameworks */,
+				42CF4C89E565405AAF54BA2D49F26195 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57774E30FD88AE26F9037E1360E947B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE679252C26FE5A3816BDBE854387F5 /* CoreGraphics.framework in Frameworks */,
+				08E88902EDB5EF7D424C72B48FAA27A4 /* Foundation.framework in Frameworks */,
+				EFF00C12F5CBB6C4123B2AE334CB569A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1773033A292FD3E675410B149CF10C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9670E698BF8F5CE6F60451E589CB89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD748BD40A0E9240F6A009B46B55DAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF0FB93A25F8E4CC7BAF445358639FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B2206A0B9B08B0D330807E2A0BD54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903933C1CC53083B04FD6907B0C75A56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1459563370EF1459BF9EE16D47C644E7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D67FD5D38F3058FD9F734273C092A705 /* Pods-SmartCase */,
+				2FE1DF0EE7E5257F4474109DDD6F1624 /* Pods-SmartCaseTests */,
+				A264CB2972E58546DEBC823796D9E050 /* Pods-SmartCaseUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53C8B4AB97860F06FE722851EA867B18 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		283BBF5718FF67B16B4B6F62950069BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F15FC94CEED853D09B8E839527141E4 /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2FE1DF0EE7E5257F4474109DDD6F1624 /* Pods-SmartCaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FEAECD24DB1A21462467AAEC6ECB6B7 /* Info.plist */,
+				0BE42668B00A1F531BC7F6590284D96B /* Pods-SmartCaseTests.modulemap */,
+				8FE40517B919ADBBD5913202DB473940 /* Pods-SmartCaseTests-acknowledgements.markdown */,
+				B76F274449B111C923D9B71943C53B5F /* Pods-SmartCaseTests-acknowledgements.plist */,
+				C9B8F7C08FFEF196D38045B54C8BD8BD /* Pods-SmartCaseTests-dummy.m */,
+				6D5747A66961CCFED85289039584A0C5 /* Pods-SmartCaseTests-frameworks.sh */,
+				C273C7B0B084B4BF1FD7DBC4DDC62F1E /* Pods-SmartCaseTests-resources.sh */,
+				2C406C333EA023B47F3619A11764960C /* Pods-SmartCaseTests-umbrella.h */,
+				73B7EF717B93AF57CB0D2E4A7DDD6118 /* Pods-SmartCaseTests.debug.xcconfig */,
+				BC1604D9F0CB89AA832DF5F9B9580F14 /* Pods-SmartCaseTests.release.xcconfig */,
+			);
+			name = "Pods-SmartCaseTests";
+			path = "Target Support Files/Pods-SmartCaseTests";
+			sourceTree = "<group>";
+		};
+		3CB105B238F4CEBFC571723D7B6EA2CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4813EAA8B460FE28E3CF15E45D2AA738 /* Info.plist */,
+				1CA270A4BE0744199C86904CF764B335 /* IQKeyboardManagerSwift.modulemap */,
+				55535B26F8AE54E301D4A6D4010F5439 /* IQKeyboardManagerSwift.xcconfig */,
+				95E30E88D75D6C7FFBD3DC5AEB2AAD79 /* IQKeyboardManagerSwift-dummy.m */,
+				46F15252B286FE227C158E1F95E79B63 /* IQKeyboardManagerSwift-prefix.pch */,
+				2BFA857237126AAE986796CAE6612970 /* IQKeyboardManagerSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+		4501827BA98F05D39FAEAAFEF6B15E34 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1749825B9BAA9886FC1D079962EC59D /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4E6E1E867D739058586512FB8C57214C /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9E26199091B4A9E97E33A08938590D30 /* MBProgressHUD.h */,
+				CD2A8D14E26B330CB87B2480D52617D0 /* MBProgressHUD.m */,
+				7EDBB1A93CAE4ADF33DC5AD10CC5D465 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		52BE78E7996A34BA8DF7A43582CFE306 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8E0300497C3AA6E8E9B937A5F73CDFD2 /* SVIndefiniteAnimatedView.h */,
+				2A1200F88DCF7921916A1CD107CF14D8 /* SVIndefiniteAnimatedView.m */,
+				CE68A911D62A711EAB9C07C22DB14D69 /* SVProgressAnimatedView.h */,
+				429937809CE10D5AFEA34144F494E783 /* SVProgressAnimatedView.m */,
+				7E3BD05E6FAE5C4AE8F84B3BD640266B /* SVProgressHUD.h */,
+				A40ABFB751FEB26AA59CA115496C3761 /* SVProgressHUD.m */,
+				75C035B3D9674ED2C774EDCCA18AFD4B /* SVRadialGradientLayer.h */,
+				D012D3B668BA796B676DDF25AD5F5462 /* SVRadialGradientLayer.m */,
+				4501827BA98F05D39FAEAAFEF6B15E34 /* Resources */,
+				ACD5F2EE4D97B6205A0ECB8A240D8741 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		53C8B4AB97860F06FE722851EA867B18 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */,
+				D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */,
+				B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */,
+				E89163E94743FDDD60913C47150E225B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E6BAD549E622712068E3A3C2621F059 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CF10B072B7C3971C7291C1BEF11E87CC /* IQBarButtonItem.swift */,
+				C64946CF8685567BD93CD8033677F29F /* IQInvocation.swift */,
+				D5517B9586D93CBA065D7CAB86E79840 /* IQKeyboardManager.swift */,
+				D2CCBA664BB6FA657697822D7A5032D7 /* IQKeyboardManagerConstants.swift */,
+				EA5AD5E03ABA34FB9A7C34B5BC1FBA54 /* IQKeyboardManagerConstantsInternal.swift */,
+				D4F126708C99086B1CC9191EF92C737C /* IQKeyboardReturnKeyHandler.swift */,
+				23FCA952C33AF105B0370070A5CB478A /* IQNSArray+Sort.swift */,
+				5448541C00F8D4D873434C08FF93B1CB /* IQPreviousNextView.swift */,
+				6576A22A885A39428528EF51680DE73A /* IQTextView.swift */,
+				126568859DE7E8AFC29AEB6396277D6F /* IQTitleBarButtonItem.swift */,
+				C2E7B0B8F2D0EF308F96D80F879EA27B /* IQToolbar.swift */,
+				E0F3A8589FF1FF129A41FBEC9346921B /* IQUIScrollView+Additions.swift */,
+				C11BF78CAE7C929ADC56F0F92D4AC482 /* IQUITextFieldView+Additions.swift */,
+				34D4F5472780E8DA4B0316B04B924A10 /* IQUIView+Hierarchy.swift */,
+				BD986641BD14A5DAADE6731B360F00C2 /* IQUIView+IQKeyboardToolbar.swift */,
+				DEA199158A735349E2DFEA0D2814431A /* IQUIViewController+Additions.swift */,
+				283BBF5718FF67B16B4B6F62950069BC /* Resources */,
+				3CB105B238F4CEBFC571723D7B6EA2CF /* Support Files */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		6044E12BC6FCCB0CD7C7DB8F0DEA47DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E6BAD549E622712068E3A3C2621F059 /* IQKeyboardManagerSwift */,
+				4E6E1E867D739058586512FB8C57214C /* MBProgressHUD */,
+				52BE78E7996A34BA8DF7A43582CFE306 /* SVProgressHUD */,
+				65B4DE09A5B3FB9B907FA881D895485A /* TOPasscodeViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65B4DE09A5B3FB9B907FA881D895485A /* TOPasscodeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55B647B43DEE9BCEE02F4078418A0E37 /* TOPasscodeButtonLabel.h */,
+				68EDC8EC0D7103DB6BFF60807B0D0DB4 /* TOPasscodeButtonLabel.m */,
+				AD34E50D875961ADE3CB3A378374BD46 /* TOPasscodeCircleButton.h */,
+				AB4AD122541FEA058185BB0A9A2BF222 /* TOPasscodeCircleButton.m */,
+				01FBA15AA33BE98808190F3013391CF9 /* TOPasscodeCircleImage.h */,
+				A32CD477C6FAF2D6E90F7AE7280DF5EC /* TOPasscodeCircleImage.m */,
+				0E8134923674D398B36B75DE174176FD /* TOPasscodeCircleView.h */,
+				362AEB0290695690D0DF096F921B78CD /* TOPasscodeCircleView.m */,
+				19071E477294686BBA104C67FAC1CB1D /* TOPasscodeFixedInputView.h */,
+				95A4D2C824BC5BA98A10266EC7C95FB8 /* TOPasscodeFixedInputView.m */,
+				FFF4272DBCBD6238B1171919B5384D57 /* TOPasscodeInputField.h */,
+				B3F5E87030FFBFA16CADE70795750A47 /* TOPasscodeInputField.m */,
+				2C6F00C338C1DC6DE7D1B5FF1ABC9057 /* TOPasscodeKeypadView.h */,
+				990BA4AD53543C6A27617F8186E8BE08 /* TOPasscodeKeypadView.m */,
+				6791AD2A24144BC7E4D41D6F140C68A0 /* TOPasscodeSettingsKeypadButton.h */,
+				752DDB0328240B7B3121B376857CC77C /* TOPasscodeSettingsKeypadButton.m */,
+				F7E32BD4DA56AB53431FA5A29A0327AD /* TOPasscodeSettingsKeypadView.h */,
+				8B92D4416992D5DF1DAFB24FBCBC0CF4 /* TOPasscodeSettingsKeypadView.m */,
+				63B1C8D3C5148A6D77B45C0F8B1EC267 /* TOPasscodeSettingsViewController.h */,
+				0B8B5D54E35AA3B57B39CFBCB752FBB1 /* TOPasscodeSettingsViewController.m */,
+				614C8BDC5679A3E340949FC33BF83CEA /* TOPasscodeSettingsWarningLabel.h */,
+				5D99E5DBD92CFDC89BDC99A740A1A94A /* TOPasscodeSettingsWarningLabel.m */,
+				45269E7DC27F88DF796C7B97B63CBFDF /* TOPasscodeVariableInputView.h */,
+				172973929C565BFAADF8153DF7263931 /* TOPasscodeVariableInputView.m */,
+				E41FAE3958D93F949D81AF20AD864482 /* TOPasscodeView.h */,
+				D135031471A6FA5A2014AC6D7760DCA7 /* TOPasscodeView.m */,
+				093C3784A5F876CA8FBF5DB1DE6F2A2C /* TOPasscodeViewContentLayout.h */,
+				76E8BD982E9282A4B9FABD6438BB5B66 /* TOPasscodeViewContentLayout.m */,
+				F0D8317D10D28DE11FCCFCEFE346E761 /* TOPasscodeViewController.h */,
+				BDC48BD11614015D644BA87A1F4D9F12 /* TOPasscodeViewController.m */,
+				E0C173B41BBA2461E2362D3AE8994966 /* TOPasscodeViewControllerAnimatedTransitioning.h */,
+				B14D8CE23DC65E3CD0FD5E2E2BA242E3 /* TOPasscodeViewControllerAnimatedTransitioning.m */,
+				5FD4A7F57C0AFC72A1924AC1DEF101C0 /* TOPasscodeViewControllerConstants.h */,
+				4922171F4A4BFA28D4598A23D7CD3AF6 /* TOSettingsKeypadImage.h */,
+				D72768C919E1B2E9248AC8405E456400 /* TOSettingsKeypadImage.m */,
+				DF679EC15A94736C677538BBBB583E64 /* Support Files */,
+			);
+			name = TOPasscodeViewController;
+			path = TOPasscodeViewController;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				6044E12BC6FCCB0CD7C7DB8F0DEA47DD /* Pods */,
+				8229232A004ED908B99D2D5BBDA1F7FD /* Products */,
+				1459563370EF1459BF9EE16D47C644E7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EDBB1A93CAE4ADF33DC5AD10CC5D465 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B0F7FBA6642AEA6E6F589C36A8CD7EB /* Info.plist */,
+				12465F6F6C955FF9C8EBD4496C6BF7DD /* MBProgressHUD.modulemap */,
+				291A1448B15897E5AA04E3998AA0727A /* MBProgressHUD.xcconfig */,
+				D7D4CDA4DF96073A8685E6CE48A1E615 /* MBProgressHUD-dummy.m */,
+				7313E1DC231EC32B420815050A1592F1 /* MBProgressHUD-prefix.pch */,
+				A12607CB8A019CA96F0E565B1CD5A6A9 /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		8229232A004ED908B99D2D5BBDA1F7FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86587FCF33F2CF3719165B9EB3C9753E /* IQKeyboardManagerSwift.framework */,
+				3625754AC0CA6553F1ACCC890FEFBD67 /* MBProgressHUD.framework */,
+				623004A83AE8CB401E5EEAF183C3FDBD /* Pods_SmartCase.framework */,
+				3F15DABC6110577E0E400ADB8765D57A /* Pods_SmartCaseTests.framework */,
+				971DACB33D81CBF5E4A756DC0CFAAFFE /* Pods_SmartCaseUITests.framework */,
+				D4108E776A75CBFB39A938CFAEEF3630 /* SVProgressHUD.framework */,
+				90DA00709458934A24D0DA21941A00E4 /* TOPasscodeViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A264CB2972E58546DEBC823796D9E050 /* Pods-SmartCaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28A912209790ED8315BB2BB29F857EB3 /* Info.plist */,
+				59DF487B5B0A054EDEC6BC2F44EEC22B /* Pods-SmartCaseUITests.modulemap */,
+				A42F31B8DC7715DD4E54A487957C3713 /* Pods-SmartCaseUITests-acknowledgements.markdown */,
+				0E0A78B613C5990F2F2C5DC7861D842B /* Pods-SmartCaseUITests-acknowledgements.plist */,
+				2A4CEB23CEDCEBB10ADFCA5D00C88C58 /* Pods-SmartCaseUITests-dummy.m */,
+				D4331CF33D893FDB04D80143A9979929 /* Pods-SmartCaseUITests-frameworks.sh */,
+				AB4D16E28B8511AD9FD8944F442DD6F8 /* Pods-SmartCaseUITests-resources.sh */,
+				81CE008BA57C89FCE64B83F3416D0475 /* Pods-SmartCaseUITests-umbrella.h */,
+				44518E491F0E7374871108B362DB9F7B /* Pods-SmartCaseUITests.debug.xcconfig */,
+				B26E9BD338DC9FC72A33A98CB9EB0116 /* Pods-SmartCaseUITests.release.xcconfig */,
+			);
+			name = "Pods-SmartCaseUITests";
+			path = "Target Support Files/Pods-SmartCaseUITests";
+			sourceTree = "<group>";
+		};
+		ACD5F2EE4D97B6205A0ECB8A240D8741 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9B86E1E0E9D1A034F52B80F4D5BBBBF /* Info.plist */,
+				9E990B152ECF34A4F50141EDCFBA01CC /* SVProgressHUD.modulemap */,
+				64A9B860457D9AA7FA6709CBFE766928 /* SVProgressHUD.xcconfig */,
+				6492C65818E94764572C7E9A94CBE181 /* SVProgressHUD-dummy.m */,
+				E8D8C800328433429657E9019CC3E7F5 /* SVProgressHUD-prefix.pch */,
+				0564B1C442F2337952B339333E322A0A /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		D67FD5D38F3058FD9F734273C092A705 /* Pods-SmartCase */ = {
+			isa = PBXGroup;
+			children = (
+				1DD905263D757D4EEECEF99CFBA6D966 /* Info.plist */,
+				6CC826FE49646C00A7BD474E4DFF82D3 /* Pods-SmartCase.modulemap */,
+				8B843B407F5F2AF5FC0C1C7157727635 /* Pods-SmartCase-acknowledgements.markdown */,
+				EFA6A6EC45D1305045C9124E49090F28 /* Pods-SmartCase-acknowledgements.plist */,
+				77CB322246943E90EFEBAC22BE85B23C /* Pods-SmartCase-dummy.m */,
+				691F4D5786EC044453D1E81F067FBEEE /* Pods-SmartCase-frameworks.sh */,
+				55D7BE34FD2B176257F1E7F306BE0482 /* Pods-SmartCase-resources.sh */,
+				E34FD9F8F659A14FC9222B56B08EC247 /* Pods-SmartCase-umbrella.h */,
+				DF51D948934359AE35425A696D3BB86F /* Pods-SmartCase.debug.xcconfig */,
+				0F5DEC6C0D65366A8BAC711B447E4B5E /* Pods-SmartCase.release.xcconfig */,
+			);
+			name = "Pods-SmartCase";
+			path = "Target Support Files/Pods-SmartCase";
+			sourceTree = "<group>";
+		};
+		DF679EC15A94736C677538BBBB583E64 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19C0307ECBFE7B1491C8E92A3A369552 /* Info.plist */,
+				193E18CAD3C9149BC42321B60CA5F8C5 /* TOPasscodeViewController.modulemap */,
+				27AB5BF737BC95377FC0CF9D7CDDEAD3 /* TOPasscodeViewController.xcconfig */,
+				F33A82976878703439DBEC75E76E6C03 /* TOPasscodeViewController-dummy.m */,
+				9F1BC9E9624A4223F04E0D42627E9709 /* TOPasscodeViewController-prefix.pch */,
+				2A5297F03E9DCADC8520D00CC24053EC /* TOPasscodeViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TOPasscodeViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04299C3B5DF771C29F507D614411D0FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61E8BD879CE37DDE2490B0F9CE4B07F /* Pods-SmartCaseTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197B7877D5D346F405BDD059EF96DBDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A794912ED1E06B05D96DF5ED0AED19 /* MBProgressHUD-umbrella.h in Headers */,
+				A5BF8DBDD8660DBCFE712657F3D82BDA /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4932122C84EFB491CBE282C7E0949E1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCD7C8E96D59CEFD2E3912602F37A8D /* Pods-SmartCaseUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4963DAAC755EDFB0824F4D130CF188C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B36C31951482DB159120591CF1D936 /* Pods-SmartCase-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82B5F04767CB991E84734A54D0ABA5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AD9D97F0F94C85720FC018235CD8A9 /* IQKeyboardManagerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0095EF86242A8E8CD8ACDDC1387EEB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D301F4322CB9C40CECBAF003710FA65 /* SVIndefiniteAnimatedView.h in Headers */,
+				0B3C9C2FE71F741EA5A690E3C0A6BF33 /* SVProgressAnimatedView.h in Headers */,
+				1F1DE3A0B4D20A1227162CCA99E8FCA7 /* SVProgressHUD-umbrella.h in Headers */,
+				37EE9F156A104BBBBC846713F0341D3E /* SVProgressHUD.h in Headers */,
+				895F561E7472B75F5765916F25C6DA9F /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78782170D5C09D1274170C32EAFCC75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7ECF53C8092DB5A45FD449F3D376CC /* TOPasscodeButtonLabel.h in Headers */,
+				C8A1CACA0FB94ADC217FCC845F6EECE8 /* TOPasscodeCircleButton.h in Headers */,
+				5F426C4D26B7F07CE099D50D4D510F9D /* TOPasscodeCircleImage.h in Headers */,
+				DA0178313FBD6AC80839515599E676B1 /* TOPasscodeCircleView.h in Headers */,
+				AAFB028954C9F9CC427615D9D86CCA78 /* TOPasscodeFixedInputView.h in Headers */,
+				33350695F55CEFEB0EF1715A5F22FAA4 /* TOPasscodeInputField.h in Headers */,
+				C0C3B80150124096568484E245F6AB8A /* TOPasscodeKeypadView.h in Headers */,
+				235AEB9303852A2AF4A4606C99E64C09 /* TOPasscodeSettingsKeypadButton.h in Headers */,
+				D0970785A1FBEAAE7C890BCB9F686DF4 /* TOPasscodeSettingsKeypadView.h in Headers */,
+				22473E9F3612080F08693631A7DBF4A5 /* TOPasscodeSettingsViewController.h in Headers */,
+				A80DD5DD1D7622113845EF189C7F9605 /* TOPasscodeSettingsWarningLabel.h in Headers */,
+				FB223D7122B6D8DDE83973D738D69699 /* TOPasscodeVariableInputView.h in Headers */,
+				9F632B62805627E70C65ED65A0365AF4 /* TOPasscodeView.h in Headers */,
+				B65964E491E9CA1E72D620B7E3A9C741 /* TOPasscodeViewContentLayout.h in Headers */,
+				D8B5A826C93F1D35D93B8FC3EA48D423 /* TOPasscodeViewController-umbrella.h in Headers */,
+				10072DC064AF68A02E7C242991AB1CBF /* TOPasscodeViewController.h in Headers */,
+				A6C2E3A62525C77B961324DAA1CF713D /* TOPasscodeViewControllerAnimatedTransitioning.h in Headers */,
+				EE94677D8D632888E090830E95DABC7F /* TOPasscodeViewControllerConstants.h in Headers */,
+				85BBC03D9592A2B5FF980146AAD4C2AB /* TOSettingsKeypadImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		41FA54D12162DAD51D02FC58A2CD5034 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1874913BA1F82C4953C3C7F551AB22 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				FE8E0446C3B3B52779E8DE373E495A61 /* Sources */,
+				B57774E30FD88AE26F9037E1360E947B /* Frameworks */,
+				197B7877D5D346F405BDD059EF96DBDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 3625754AC0CA6553F1ACCC890FEFBD67 /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5209899000D595DE3BDCC105E47FE4CE /* Pods-SmartCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8B197A42FE8FFF45DDA06CE919DDEA6 /* Build configuration list for PBXNativeTarget "Pods-SmartCase" */;
+			buildPhases = (
+				95BC8D768DA48E0C9D90BB525E1026B2 /* Sources */,
+				C1773033A292FD3E675410B149CF10C3 /* Frameworks */,
+				C4963DAAC755EDFB0824F4D130CF188C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9950A5871A1587067EBD63475ACA57E9 /* PBXTargetDependency */,
+				6B09D8B8269ADD7BAA5FFF7E1D88FAC7 /* PBXTargetDependency */,
+				1F8F25A39DA4755E9803248DDA12B5E5 /* PBXTargetDependency */,
+				66862AF173DBC6B06F20B0E50F112806 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartCase";
+			productName = "Pods-SmartCase";
+			productReference = 623004A83AE8CB401E5EEAF183C3FDBD /* Pods_SmartCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		655DBDF92D08CC6A1DFB0140AC16E294 /* Pods-SmartCaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08827C806BC6F3EF213225F075B535F /* Build configuration list for PBXNativeTarget "Pods-SmartCaseTests" */;
+			buildPhases = (
+				22145BF0523DCAC07A6A5E0A4FB50C27 /* Sources */,
+				11818B00E3DF9394903D42244755C4FD /* Frameworks */,
+				04299C3B5DF771C29F507D614411D0FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5334D7C162295669F10EE81945CB3F80 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartCaseTests";
+			productName = "Pods-SmartCaseTests";
+			productReference = 3F15DABC6110577E0E400ADB8765D57A /* Pods_SmartCaseTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B75737D6365D95A5941E5848C25AA7D /* TOPasscodeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8685EB80640E2E174DE8A64103978DB5 /* Build configuration list for PBXNativeTarget "TOPasscodeViewController" */;
+			buildPhases = (
+				DC4F52F9040A34704B04DAE5EB4237A8 /* Sources */,
+				CD748BD40A0E9240F6A009B46B55DAAB /* Frameworks */,
+				F78782170D5C09D1274170C32EAFCC75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TOPasscodeViewController;
+			productName = TOPasscodeViewController;
+			productReference = 90DA00709458934A24D0DA21941A00E4 /* TOPasscodeViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D561E3C0CEE4404E3DADB2D19AA1B79 /* Pods-SmartCaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B36B5E95D90D6AF4336218C682D8A92 /* Build configuration list for PBXNativeTarget "Pods-SmartCaseUITests" */;
+			buildPhases = (
+				87AC327A48EE6FF129EAD08D57B01724 /* Sources */,
+				D3B2206A0B9B08B0D330807E2A0BD54D /* Frameworks */,
+				4932122C84EFB491CBE282C7E0949E1C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A232A026A3942DCEFAE30F5DC8F3ACF9 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartCaseUITests";
+			productName = "Pods-SmartCaseUITests";
+			productReference = 971DACB33D81CBF5E4A756DC0CFAAFFE /* Pods_SmartCaseUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C235F77E101E742652CCF98FFDFA5182 /* IQKeyboardManagerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8C5CE05A712EF50BB123A41D8EFC0CB /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
+			buildPhases = (
+				6AE8A1A8C31E2BAC9BF0840594A72CEB /* Sources */,
+				81A5C814ACEB86CB06CD6C51383982FE /* Frameworks */,
+				918D58E08AC7FD6CC66B75FF048005F7 /* Resources */,
+				C82B5F04767CB991E84734A54D0ABA5B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManagerSwift;
+			productName = IQKeyboardManagerSwift;
+			productReference = 86587FCF33F2CF3719165B9EB3C9753E /* IQKeyboardManagerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA59377510E7B5F83482A566AE5E9DAF /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23AD6F073F9E721FE30D8443B3BBE509 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				1AB7227032DBF450A9BE981373B0E5C7 /* Sources */,
+				AAE5A59546EEAD355B8CA42D80344A74 /* Frameworks */,
+				E0095EF86242A8E8CD8ACDDC1387EEB5 /* Headers */,
+				F50A27F21E234F62FAF96B8873AE851D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = D4108E776A75CBFB39A938CFAEEF3630 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8229232A004ED908B99D2D5BBDA1F7FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C235F77E101E742652CCF98FFDFA5182 /* IQKeyboardManagerSwift */,
+				41FA54D12162DAD51D02FC58A2CD5034 /* MBProgressHUD */,
+				5209899000D595DE3BDCC105E47FE4CE /* Pods-SmartCase */,
+				655DBDF92D08CC6A1DFB0140AC16E294 /* Pods-SmartCaseTests */,
+				9D561E3C0CEE4404E3DADB2D19AA1B79 /* Pods-SmartCaseUITests */,
+				EA59377510E7B5F83482A566AE5E9DAF /* SVProgressHUD */,
+				7B75737D6365D95A5941E5848C25AA7D /* TOPasscodeViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		918D58E08AC7FD6CC66B75FF048005F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2FE216328BFC23AF9D30EAEFAA2303 /* IQKeyboardManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50A27F21E234F62FAF96B8873AE851D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3DCFFE6E81EE2E858E16C06226AE72 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB7227032DBF450A9BE981373B0E5C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB441BCE200C257AA2E2B121851BAC9 /* SVIndefiniteAnimatedView.m in Sources */,
+				E19EEDD52F1498E1977F2E196AD892A8 /* SVProgressAnimatedView.m in Sources */,
+				D420AE9AA858F53CC3160BC07632E593 /* SVProgressHUD-dummy.m in Sources */,
+				E5F869908C4EA33EDF12D6E9C44584D5 /* SVProgressHUD.m in Sources */,
+				3C4B59466B0215FA56334E1653FC599F /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22145BF0523DCAC07A6A5E0A4FB50C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49E6937181A2CABFADA04D1C816276B /* Pods-SmartCaseTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE8A1A8C31E2BAC9BF0840594A72CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6BAE070E573E1FABA820360F22737B /* IQBarButtonItem.swift in Sources */,
+				E8F5CC4714C4AB1D6FE8FC85651DF3A3 /* IQInvocation.swift in Sources */,
+				E1892F605D93810A9FBE0902043EB8AF /* IQKeyboardManager.swift in Sources */,
+				598527A1D24BD6C0C9F741E8F84DFE17 /* IQKeyboardManagerConstants.swift in Sources */,
+				E1E729DD19EDA12DF13E1A4CF6D748C8 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				64F354609DA76AD80DD40850DB763562 /* IQKeyboardManagerSwift-dummy.m in Sources */,
+				1E66A4899FC855FC61F13721CF63EB35 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				3D77B7DC6449E6CC41C0FF73714B6BE9 /* IQNSArray+Sort.swift in Sources */,
+				1DF0DEB77D26401892D4E76463DD3949 /* IQPreviousNextView.swift in Sources */,
+				4B0F9347718263C67557054C2E15DE61 /* IQTextView.swift in Sources */,
+				BB4FCDEB31262E21F9021F22B2A73FAC /* IQTitleBarButtonItem.swift in Sources */,
+				83B0E4A33786C45550CBAA86DD9E400B /* IQToolbar.swift in Sources */,
+				5939499A16FC0C349C94A634D25C4EE7 /* IQUIScrollView+Additions.swift in Sources */,
+				EEC5EE727FA2DF9D913B4E2A48B57DAD /* IQUITextFieldView+Additions.swift in Sources */,
+				3EDA7575644614ACD562D23759D18DE8 /* IQUIView+Hierarchy.swift in Sources */,
+				3285188513F859E100A7BBE29B36599D /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				7FE321828ECA1D78CCF8A2892A30438B /* IQUIViewController+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AC327A48EE6FF129EAD08D57B01724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9453EC4192CA3C95DA18667AEBA33F86 /* Pods-SmartCaseUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BC8D768DA48E0C9D90BB525E1026B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2353E041C15CA223438BDEED56904026 /* Pods-SmartCase-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4F52F9040A34704B04DAE5EB4237A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42B5E3CD792D1CF6EE9674A9155C066 /* TOPasscodeButtonLabel.m in Sources */,
+				E5F3A54633612E5211321FD4DA7A930B /* TOPasscodeCircleButton.m in Sources */,
+				1207693E6AF862D8C87B6557297E122A /* TOPasscodeCircleImage.m in Sources */,
+				E08E6058811BE93DBDA89E76F0063DFB /* TOPasscodeCircleView.m in Sources */,
+				AEC0B6F24C7CB8874582EFBFCDBCED9E /* TOPasscodeFixedInputView.m in Sources */,
+				777380D8E3E40C318702127830661A24 /* TOPasscodeInputField.m in Sources */,
+				854D01A8933E1200F6CB80F34A6054BA /* TOPasscodeKeypadView.m in Sources */,
+				819481635620C9D85C032B3F9AC71C33 /* TOPasscodeSettingsKeypadButton.m in Sources */,
+				8901F98D831C7E17F2FEAD2E8C1D663D /* TOPasscodeSettingsKeypadView.m in Sources */,
+				2550FC51132812BAAF3EAA413F23790D /* TOPasscodeSettingsViewController.m in Sources */,
+				2404D09BB992A676F37003B1AED60B15 /* TOPasscodeSettingsWarningLabel.m in Sources */,
+				D862A7494209521BAF25255C518FE14C /* TOPasscodeVariableInputView.m in Sources */,
+				1E5668ED93ACA60ABC63AAF3DE0DC34C /* TOPasscodeView.m in Sources */,
+				B46D3C1F6AF06C3BFB48CC281CD57155 /* TOPasscodeViewContentLayout.m in Sources */,
+				6648E2FC819C94F6F4AED50F852C88A3 /* TOPasscodeViewController-dummy.m in Sources */,
+				3C819C39A2700E3F0F67F45D310662E1 /* TOPasscodeViewController.m in Sources */,
+				56281077E890D56154ABA8C6C9FFF1A2 /* TOPasscodeViewControllerAnimatedTransitioning.m in Sources */,
+				21E14EAC345850B9D6D74A02D898BF53 /* TOSettingsKeypadImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8E0446C3B3B52779E8DE373E495A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0968524ED4DE8DF7834055C5B6089D72 /* MBProgressHUD-dummy.m in Sources */,
+				897C38C8E3C31950E2E93A4D6937CCC4 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F8F25A39DA4755E9803248DDA12B5E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = EA59377510E7B5F83482A566AE5E9DAF /* SVProgressHUD */;
+			targetProxy = E2CF638B7E5379049DA8E15E434501F6 /* PBXContainerItemProxy */;
+		};
+		5334D7C162295669F10EE81945CB3F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SmartCase";
+			target = 5209899000D595DE3BDCC105E47FE4CE /* Pods-SmartCase */;
+			targetProxy = 23C5C89746CA4BBBD1AB140B863A7434 /* PBXContainerItemProxy */;
+		};
+		66862AF173DBC6B06F20B0E50F112806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TOPasscodeViewController;
+			target = 7B75737D6365D95A5941E5848C25AA7D /* TOPasscodeViewController */;
+			targetProxy = 57A0E0B1D49861BB0B7A5D2F22AB975B /* PBXContainerItemProxy */;
+		};
+		6B09D8B8269ADD7BAA5FFF7E1D88FAC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 41FA54D12162DAD51D02FC58A2CD5034 /* MBProgressHUD */;
+			targetProxy = 91E268786A3ABA42CFF6DE70840F5D56 /* PBXContainerItemProxy */;
+		};
+		9950A5871A1587067EBD63475ACA57E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = C235F77E101E742652CCF98FFDFA5182 /* IQKeyboardManagerSwift */;
+			targetProxy = A854765EBF58F0C69A59BFB6B4444011 /* PBXContainerItemProxy */;
+		};
+		A232A026A3942DCEFAE30F5DC8F3ACF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SmartCase";
+			target = 5209899000D595DE3BDCC105E47FE4CE /* Pods-SmartCase */;
+			targetProxy = F6119EC1FE89029EFCACBF6CCDF63264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FD71E8EF110D987EDDEAA70148AE75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B7EF717B93AF57CB0D2E4A7DDD6118 /* Pods-SmartCaseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartCaseTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartCaseTests/Pods-SmartCaseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E70BD20B9491C5F2A03217D984F3B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55535B26F8AE54E301D4A6D4010F5439 /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7449047EA152DB619712C1F87249DB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A9B860457D9AA7FA6709CBFE766928 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E8CE7ED7CEDD026712565FC584CA09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27AB5BF737BC95377FC0CF9D7CDDEAD3 /* TOPasscodeViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TOPasscodeViewController/TOPasscodeViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TOPasscodeViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TOPasscodeViewController/TOPasscodeViewController.modulemap";
+				PRODUCT_MODULE_NAME = TOPasscodeViewController;
+				PRODUCT_NAME = TOPasscodeViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99B10B03B612566D4318E8D2877920DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A9B860457D9AA7FA6709CBFE766928 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A31D45DACB551A9FE8BE8713E251B826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B26E9BD338DC9FC72A33A98CB9EB0116 /* Pods-SmartCaseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartCaseUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartCaseUITests/Pods-SmartCaseUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A69E0FE71AF05D15E21D3ADBD73C3963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5DEC6C0D65366A8BAC711B447E4B5E /* Pods-SmartCase.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartCase/Pods-SmartCase.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3F365A79A75991CBCBCF49F488646E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55535B26F8AE54E301D4A6D4010F5439 /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BAA2E479EC70F24BB9AE752A95108C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291A1448B15897E5AA04E3998AA0727A /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8AF34ED53D4A85EB922321777C889F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291A1448B15897E5AA04E3998AA0727A /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFAA00ECE6246A1078D9CB051F98C751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44518E491F0E7374871108B362DB9F7B /* Pods-SmartCaseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartCaseUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartCaseUITests/Pods-SmartCaseUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D25F486E78EB2A95E9B455A200E10326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1604D9F0CB89AA832DF5F9B9580F14 /* Pods-SmartCaseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartCaseTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartCaseTests/Pods-SmartCaseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D948E08E01C3635E829E6D596D1F1AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27AB5BF737BC95377FC0CF9D7CDDEAD3 /* TOPasscodeViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TOPasscodeViewController/TOPasscodeViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TOPasscodeViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TOPasscodeViewController/TOPasscodeViewController.modulemap";
+				PRODUCT_MODULE_NAME = TOPasscodeViewController;
+				PRODUCT_NAME = TOPasscodeViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FBA909DCCF0F972FD3B4727CDB6B72DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF51D948934359AE35425A696D3BB86F /* Pods-SmartCase.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartCase/Pods-SmartCase.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23AD6F073F9E721FE30D8443B3BBE509 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7449047EA152DB619712C1F87249DB2A /* Debug */,
+				99B10B03B612566D4318E8D2877920DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8685EB80640E2E174DE8A64103978DB5 /* Build configuration list for PBXNativeTarget "TOPasscodeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D948E08E01C3635E829E6D596D1F1AC1 /* Debug */,
+				7E8CE7ED7CEDD026712565FC584CA09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B36B5E95D90D6AF4336218C682D8A92 /* Build configuration list for PBXNativeTarget "Pods-SmartCaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAA00ECE6246A1078D9CB051F98C751 /* Debug */,
+				A31D45DACB551A9FE8BE8713E251B826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08827C806BC6F3EF213225F075B535F /* Build configuration list for PBXNativeTarget "Pods-SmartCaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FD71E8EF110D987EDDEAA70148AE75A /* Debug */,
+				D25F486E78EB2A95E9B455A200E10326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8B197A42FE8FFF45DDA06CE919DDEA6 /* Build configuration list for PBXNativeTarget "Pods-SmartCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA909DCCF0F972FD3B4727CDB6B72DF /* Debug */,
+				A69E0FE71AF05D15E21D3ADBD73C3963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1874913BA1F82C4953C3C7F551AB22 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AF34ED53D4A85EB922321777C889F0 /* Debug */,
+				BAA2E479EC70F24BB9AE752A95108C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8C5CE05A712EF50BB123A41D8EFC0CB /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E70BD20B9491C5F2A03217D984F3B82 /* Debug */,
+				B3F365A79A75991CBCBCF49F488646E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

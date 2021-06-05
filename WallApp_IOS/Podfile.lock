@@ -1,0 +1,37 @@
+PODS:
+  - IQKeyboardManagerSwift (6.0.4)
+  - MBProgressHUD (1.1.0)
+  - SVProgressHUD (2.2.5)
+  - TOPasscodeViewController (0.0.2)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift (~> 6.0.1)
+  - MBProgressHUD
+  - SVProgressHUD
+  - TOPasscodeViewController (from `https://github.com/TimOliver/TOPasscodeViewController`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  TOPasscodeViewController:
+    :branch: master
+    :git: https://github.com/TimOliver/TOPasscodeViewController
+
+CHECKOUT OPTIONS:
+  TOPasscodeViewController:
+    :commit: 88f9fdf7031e03a065056a45f5d050dd4db2e04b
+    :git: https://github.com/TimOliver/TOPasscodeViewController
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 36dbe324b4f9793f5f41ba5227f3e7c76dfefd50
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TOPasscodeViewController: 03b5df3762a7be1511102093c644a42275bddf24
+
+PODFILE CHECKSUM: ddb7fc7cc3478a92bc85462ab59127d24ad06f9c
+
+COCOAPODS: 1.5.3

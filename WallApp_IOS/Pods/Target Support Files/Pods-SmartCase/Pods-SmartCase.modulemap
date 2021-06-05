@@ -1,0 +1,6 @@
+framework module Pods_SmartCase {
+  umbrella header "Pods-SmartCase-umbrella.h"
+
+  export *
+  module * { export * }
+}

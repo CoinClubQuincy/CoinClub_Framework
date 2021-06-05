@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011EDA3320F618C900A3FC98 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011EDA3220F618C900A3FC98 /* Constant.swift */; };
+		012E33E7210EC49900925476 /* CCSwipBackPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E33E3210EC49900925476 /* CCSwipBackPresentationController.swift */; };
+		012E33E8210EC49900925476 /* CCZoomTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E33E4210EC49900925476 /* CCZoomTransitioner.swift */; };
+		012E33E9210EC49900925476 /* CCZoomTransitionVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E33E5210EC49900925476 /* CCZoomTransitionVCExtension.swift */; };
+		012E33EA210EC49900925476 /* CCZoomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E33E6210EC49900925476 /* CCZoomAnimatedTransitioning.swift */; };
+		0138C10C2110433000DF87E7 /* Draggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0138C10B2110433000DF87E7 /* Draggable.swift */; };
+		0138C10E2110531800DF87E7 /* NotificationCenterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0138C10D2110531800DF87E7 /* NotificationCenterHelper.swift */; };
+		013FB4BD20F8C69300027227 /* SerialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013FB4BC20F8C69300027227 /* SerialTableViewCell.swift */; };
+		013FB4BF20F8C92E00027227 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013FB4BE20F8C92E00027227 /* AddCardViewController.swift */; };
+		013FB4C220F8CB8C00027227 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013FB4C120F8CB8C00027227 /* CardModel.swift */; };
+		018E9A6020F99E78002B285A /* SerialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E9A5F20F99E78002B285A /* SerialCollectionViewCell.swift */; };
+		018E9A6220F99FD8002B285A /* StoryBoardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E9A6120F99FD8002B285A /* StoryBoardHelper.swift */; };
+		018E9A6520F9A02D002B285A /* SelectImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E9A6420F9A02D002B285A /* SelectImageViewController.swift */; };
+		018E9A6720F9AD43002B285A /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E9A6620F9AD43002B285A /* AppData.swift */; };
+		018E9A6A20F9B032002B285A /* WallApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 018E9A6820F9B032002B285A /* WallApp.xcdatamodeld */; };
+		018E9A6C20F9B0C3002B285A /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E9A6B20F9B0C3002B285A /* CoreDataHelper.swift */; };
+		018E9A6F20F9C15D002B285A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E9A6E20F9C15D002B285A /* UIColor.swift */; };
+		01F16C93210B0D7A001E43FE /* SerialDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F16C92210B0D7A001E43FE /* SerialDetailViewController.swift */; };
+		01F34F7A20F47676006916A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F34F7920F47676006916A2 /* AppDelegate.swift */; };
+		01F34F7F20F47676006916A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F34F7D20F47676006916A2 /* Main.storyboard */; };
+		01F34F8120F47677006916A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F34F8020F47677006916A2 /* Assets.xcassets */; };
+		01F34F8420F47677006916A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F34F8220F47677006916A2 /* LaunchScreen.storyboard */; };
+		01F34F8F20F47677006916A2 /* SmartCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F34F8E20F47677006916A2 /* SmartCaseTests.swift */; };
+		01F34F9A20F47677006916A2 /* SmartCaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F34F9920F47677006916A2 /* SmartCaseUITests.swift */; };
+		01F34FAA20F476EB006916A2 /* SerialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F34FA720F476EB006916A2 /* SerialViewController.swift */; };
+		01F34FAB20F476EB006916A2 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F34FA820F476EB006916A2 /* ScannerViewController.swift */; };
+		01F34FAC20F476EB006916A2 /* BluetoothSerial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F34FA920F476EB006916A2 /* BluetoothSerial.swift */; };
+		01F34FAE20F478C4006916A2 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F34FAD20F478C4006916A2 /* Utility.swift */; };
+		01F34FC120F47BF9006916A2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F34FC020F47BF9006916A2 /* MBProgressHUD.m */; };
+		01F34FC420F48881006916A2 /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F34FC320F48881006916A2 /* SwiftHEXColors.swift */; };
+		08D7EC0F794612FF0BB9502D /* Pods_SmartCaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F15ACDFFDA3804FA2D7B82 /* Pods_SmartCaseUITests.framework */; };
+		481E4FF822054CCC00A55B7F /* Card+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481E4FF622054CCC00A55B7F /* Card+CoreDataClass.swift */; };
+		481E4FF922054CCC00A55B7F /* Card+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481E4FF722054CCC00A55B7F /* Card+CoreDataProperties.swift */; };
+		80D5254479C1781E02B3AEC8 /* Pods_SmartCaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34D8A951A44A0581483C877 /* Pods_SmartCaseTests.framework */; };
+		A91D2905CA7D05BD372E26FD /* Pods_SmartCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB4D774D53EA0FAC614BC3 /* Pods_SmartCase.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01F34F8B20F47677006916A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01F34F6E20F47676006916A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01F34F7520F47676006916A2;
+			remoteInfo = SmartCase;
+		};
+		01F34F9620F47677006916A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01F34F6E20F47676006916A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01F34F7520F47676006916A2;
+			remoteInfo = SmartCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011EDA3220F618C900A3FC98 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		012E33E3210EC49900925476 /* CCSwipBackPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCSwipBackPresentationController.swift; sourceTree = "<group>"; };
+		012E33E4210EC49900925476 /* CCZoomTransitioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCZoomTransitioner.swift; sourceTree = "<group>"; };
+		012E33E5210EC49900925476 /* CCZoomTransitionVCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCZoomTransitionVCExtension.swift; sourceTree = "<group>"; };
+		012E33E6210EC49900925476 /* CCZoomAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCZoomAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		0138C10B2110433000DF87E7 /* Draggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draggable.swift; sourceTree = "<group>"; };
+		0138C10D2110531800DF87E7 /* NotificationCenterHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCenterHelper.swift; sourceTree = "<group>"; };
+		013FB4BC20F8C69300027227 /* SerialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialTableViewCell.swift; sourceTree = "<group>"; };
+		013FB4BE20F8C92E00027227 /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		013FB4C120F8CB8C00027227 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		018E9A5F20F99E78002B285A /* SerialCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialCollectionViewCell.swift; sourceTree = "<group>"; };
+		018E9A6120F99FD8002B285A /* StoryBoardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBoardHelper.swift; sourceTree = "<group>"; };
+		018E9A6420F9A02D002B285A /* SelectImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectImageViewController.swift; sourceTree = "<group>"; };
+		018E9A6620F9AD43002B285A /* AppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		018E9A6920F9B032002B285A /* WallApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WallApp.xcdatamodel; sourceTree = "<group>"; };
+		018E9A6B20F9B0C3002B285A /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		018E9A6E20F9C15D002B285A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		01F16C92210B0D7A001E43FE /* SerialDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialDetailViewController.swift; sourceTree = "<group>"; };
+		01F34F7620F47676006916A2 /* SmartCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F34F7920F47676006916A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01F34F7E20F47676006916A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01F34F8020F47677006916A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01F34F8320F47677006916A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01F34F8520F47677006916A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F34F8A20F47677006916A2 /* SmartCaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F34F8E20F47677006916A2 /* SmartCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCaseTests.swift; sourceTree = "<group>"; };
+		01F34F9020F47677006916A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F34F9520F47677006916A2 /* SmartCaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F34F9920F47677006916A2 /* SmartCaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCaseUITests.swift; sourceTree = "<group>"; };
+		01F34F9B20F47677006916A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F34FA720F476EB006916A2 /* SerialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerialViewController.swift; sourceTree = "<group>"; };
+		01F34FA820F476EB006916A2 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		01F34FA920F476EB006916A2 /* BluetoothSerial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothSerial.swift; sourceTree = "<group>"; };
+		01F34FAD20F478C4006916A2 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		01F34FBC20F47BE7006916A2 /* SmartCase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartCase-Bridging-Header.h"; sourceTree = "<group>"; };
+		01F34FBF20F47BF9006916A2 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		01F34FC020F47BF9006916A2 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		01F34FC320F48881006916A2 /* SwiftHEXColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftHEXColors.swift; sourceTree = "<group>"; };
+		39CB4D774D53EA0FAC614BC3 /* Pods_SmartCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		410FFC9B7E2BCCC0190B8FB7 /* Pods-SmartCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCase.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartCase/Pods-SmartCase.release.xcconfig"; sourceTree = "<group>"; };
+		481E4FF622054CCC00A55B7F /* Card+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataClass.swift"; sourceTree = "<group>"; };
+		481E4FF722054CCC00A55B7F /* Card+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6AE88BD9CEDE907B87045861 /* Pods-SmartCaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCaseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartCaseTests/Pods-SmartCaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BDF68AC8BBA478B5A380CAB /* Pods-SmartCaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCaseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartCaseUITests/Pods-SmartCaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80267A221A605CE9E4A8CDB9 /* Pods-SmartCaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartCaseTests/Pods-SmartCaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1F15ACDFFDA3804FA2D7B82 /* Pods_SmartCaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartCaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34D8A951A44A0581483C877 /* Pods_SmartCaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartCaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11DE5E124BDDE4CFA9A8220 /* Pods-SmartCaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCaseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartCaseUITests/Pods-SmartCaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFABA828DBACE55994AEBB31 /* Pods-SmartCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartCase/Pods-SmartCase.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01F34F7320F47676006916A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91D2905CA7D05BD372E26FD /* Pods_SmartCase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F34F8720F47677006916A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D5254479C1781E02B3AEC8 /* Pods_SmartCaseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F34F9220F47677006916A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D7EC0F794612FF0BB9502D /* Pods_SmartCaseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012E33E2210EC48F00925476 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				012E33E5210EC49900925476 /* CCZoomTransitionVCExtension.swift */,
+				012E33E3210EC49900925476 /* CCSwipBackPresentationController.swift */,
+				012E33E6210EC49900925476 /* CCZoomAnimatedTransitioning.swift */,
+				012E33E4210EC49900925476 /* CCZoomTransitioner.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		013FB4C020F8CB6B00027227 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				013FB4C120F8CB8C00027227 /* CardModel.swift */,
+				01F34FA920F476EB006916A2 /* BluetoothSerial.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		013FB4C320F8CD1000027227 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				01F34FA720F476EB006916A2 /* SerialViewController.swift */,
+				01F16C92210B0D7A001E43FE /* SerialDetailViewController.swift */,
+				01F34FA820F476EB006916A2 /* ScannerViewController.swift */,
+				013FB4BE20F8C92E00027227 /* AddCardViewController.swift */,
+				018E9A6420F9A02D002B285A /* SelectImageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		013FB4C420F8CD2C00027227 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				013FB4BC20F8C69300027227 /* SerialTableViewCell.swift */,
+				018E9A5F20F99E78002B285A /* SerialCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		018E9A6320F99FDC002B285A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0138C10D2110531800DF87E7 /* NotificationCenterHelper.swift */,
+				018E9A6B20F9B0C3002B285A /* CoreDataHelper.swift */,
+				018E9A6120F99FD8002B285A /* StoryBoardHelper.swift */,
+				018E9A6820F9B032002B285A /* WallApp.xcdatamodeld */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		018E9A6D20F9C14F002B285A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				018E9A6E20F9C15D002B285A /* UIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		01F34F6D20F47676006916A2 = {
+			isa = PBXGroup;
+			children = (
+				01F34F7820F47676006916A2 /* SmartCase */,
+				01F34F8D20F47677006916A2 /* SmartCaseTests */,
+				01F34F9820F47677006916A2 /* SmartCaseUITests */,
+				01F34F7720F47676006916A2 /* Products */,
+				198A6E2CB4F2078EA4DB2DFF /* Pods */,
+				B3937C1542BDB0E697278713 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01F34F7720F47676006916A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01F34F7620F47676006916A2 /* SmartCase.app */,
+				01F34F8A20F47677006916A2 /* SmartCaseTests.xctest */,
+				01F34F9520F47677006916A2 /* SmartCaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01F34F7820F47676006916A2 /* SmartCase */ = {
+			isa = PBXGroup;
+			children = (
+				0138C10B2110433000DF87E7 /* Draggable.swift */,
+				012E33E2210EC48F00925476 /* Library */,
+				018E9A6D20F9C14F002B285A /* Extension */,
+				018E9A6320F99FDC002B285A /* Helper */,
+				01F34F7920F47676006916A2 /* AppDelegate.swift */,
+				013FB4C420F8CD2C00027227 /* Cell */,
+				01F34FC220F47C4D006916A2 /* Class */,
+				013FB4C320F8CD1000027227 /* Controller */,
+				013FB4C020F8CB6B00027227 /* Model */,
+				01F34F7D20F47676006916A2 /* Main.storyboard */,
+				01F34F8020F47677006916A2 /* Assets.xcassets */,
+				01F34F8220F47677006916A2 /* LaunchScreen.storyboard */,
+				01F34F8520F47677006916A2 /* Info.plist */,
+				01F34FBC20F47BE7006916A2 /* SmartCase-Bridging-Header.h */,
+			);
+			path = SmartCase;
+			sourceTree = "<group>";
+		};
+		01F34F8D20F47677006916A2 /* SmartCaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				01F34F8E20F47677006916A2 /* SmartCaseTests.swift */,
+				01F34F9020F47677006916A2 /* Info.plist */,
+			);
+			path = SmartCaseTests;
+			sourceTree = "<group>";
+		};
+		01F34F9820F47677006916A2 /* SmartCaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01F34F9920F47677006916A2 /* SmartCaseUITests.swift */,
+				01F34F9B20F47677006916A2 /* Info.plist */,
+			);
+			path = SmartCaseUITests;
+			sourceTree = "<group>";
+		};
+		01F34FC220F47C4D006916A2 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				481E4FF622054CCC00A55B7F /* Card+CoreDataClass.swift */,
+				481E4FF722054CCC00A55B7F /* Card+CoreDataProperties.swift */,
+				01F34FC320F48881006916A2 /* SwiftHEXColors.swift */,
+				01F34FAD20F478C4006916A2 /* Utility.swift */,
+				01F34FBF20F47BF9006916A2 /* MBProgressHUD.h */,
+				011EDA3220F618C900A3FC98 /* Constant.swift */,
+				01F34FC020F47BF9006916A2 /* MBProgressHUD.m */,
+				018E9A6620F9AD43002B285A /* AppData.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		198A6E2CB4F2078EA4DB2DFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFABA828DBACE55994AEBB31 /* Pods-SmartCase.debug.xcconfig */,
+				410FFC9B7E2BCCC0190B8FB7 /* Pods-SmartCase.release.xcconfig */,
+				80267A221A605CE9E4A8CDB9 /* Pods-SmartCaseTests.debug.xcconfig */,
+				6AE88BD9CEDE907B87045861 /* Pods-SmartCaseTests.release.xcconfig */,
+				F11DE5E124BDDE4CFA9A8220 /* Pods-SmartCaseUITests.debug.xcconfig */,
+				7BDF68AC8BBA478B5A380CAB /* Pods-SmartCaseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3937C1542BDB0E697278713 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39CB4D774D53EA0FAC614BC3 /* Pods_SmartCase.framework */,
+				E34D8A951A44A0581483C877 /* Pods_SmartCaseTests.framework */,
+				A1F15ACDFFDA3804FA2D7B82 /* Pods_SmartCaseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01F34F7520F47676006916A2 /* SmartCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F34F9E20F47677006916A2 /* Build configuration list for PBXNativeTarget "SmartCase" */;
+			buildPhases = (
+				26758A6D5F5C0BC23E347688 /* [CP] Check Pods Manifest.lock */,
+				01F34F7220F47676006916A2 /* Sources */,
+				01F34F7320F47676006916A2 /* Frameworks */,
+				01F34F7420F47676006916A2 /* Resources */,
+				1F0DAC8D71E24239DA12490F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartCase;
+			productName = SmartCase;
+			productReference = 01F34F7620F47676006916A2 /* SmartCase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01F34F8920F47677006916A2 /* SmartCaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F34FA120F47677006916A2 /* Build configuration list for PBXNativeTarget "SmartCaseTests" */;
+			buildPhases = (
+				2CD150EC93221682BF170BA0 /* [CP] Check Pods Manifest.lock */,
+				01F34F8620F47677006916A2 /* Sources */,
+				01F34F8720F47677006916A2 /* Frameworks */,
+				01F34F8820F47677006916A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F34F8C20F47677006916A2 /* PBXTargetDependency */,
+			);
+			name = SmartCaseTests;
+			productName = SmartCaseTests;
+			productReference = 01F34F8A20F47677006916A2 /* SmartCaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01F34F9420F47677006916A2 /* SmartCaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F34FA420F47677006916A2 /* Build configuration list for PBXNativeTarget "SmartCaseUITests" */;
+			buildPhases = (
+				B156C2980FDB47B0D493E64F /* [CP] Check Pods Manifest.lock */,
+				01F34F9120F47677006916A2 /* Sources */,
+				01F34F9220F47677006916A2 /* Frameworks */,
+				01F34F9320F47677006916A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F34F9720F47677006916A2 /* PBXTargetDependency */,
+			);
+			name = SmartCaseUITests;
+			productName = SmartCaseUITests;
+			productReference = 01F34F9520F47677006916A2 /* SmartCaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01F34F6E20F47676006916A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Squareroot;
+				TargetAttributes = {
+					01F34F7520F47676006916A2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					01F34F8920F47677006916A2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 01F34F7520F47676006916A2;
+					};
+					01F34F9420F47677006916A2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 01F34F7520F47676006916A2;
+					};
+				};
+			};
+			buildConfigurationList = 01F34F7120F47676006916A2 /* Build configuration list for PBXProject "SmartCase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01F34F6D20F47676006916A2;
+			productRefGroup = 01F34F7720F47676006916A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01F34F7520F47676006916A2 /* SmartCase */,
+				01F34F8920F47677006916A2 /* SmartCaseTests */,
+				01F34F9420F47677006916A2 /* SmartCaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01F34F7420F47676006916A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F34F8420F47677006916A2 /* LaunchScreen.storyboard in Resources */,
+				01F34F8120F47677006916A2 /* Assets.xcassets in Resources */,
+				01F34F7F20F47676006916A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F34F8820F47677006916A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F34F9320F47677006916A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F0DAC8D71E24239DA12490F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmartCase/Pods-SmartCase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/TOPasscodeViewController/TOPasscodeViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TOPasscodeViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartCase/Pods-SmartCase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26758A6D5F5C0BC23E347688 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartCase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CD150EC93221682BF170BA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartCaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B156C2980FDB47B0D493E64F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartCaseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F34F7220F47676006916A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012E33E8210EC49900925476 /* CCZoomTransitioner.swift in Sources */,
+				01F34F7A20F47676006916A2 /* AppDelegate.swift in Sources */,
+				012E33E9210EC49900925476 /* CCZoomTransitionVCExtension.swift in Sources */,
+				012E33E7210EC49900925476 /* CCSwipBackPresentationController.swift in Sources */,
+				013FB4C220F8CB8C00027227 /* CardModel.swift in Sources */,
+				01F34FAE20F478C4006916A2 /* Utility.swift in Sources */,
+				481E4FF922054CCC00A55B7F /* Card+CoreDataProperties.swift in Sources */,
+				0138C10E2110531800DF87E7 /* NotificationCenterHelper.swift in Sources */,
+				01F34FAA20F476EB006916A2 /* SerialViewController.swift in Sources */,
+				018E9A6C20F9B0C3002B285A /* CoreDataHelper.swift in Sources */,
+				018E9A6220F99FD8002B285A /* StoryBoardHelper.swift in Sources */,
+				018E9A6020F99E78002B285A /* SerialCollectionViewCell.swift in Sources */,
+				481E4FF822054CCC00A55B7F /* Card+CoreDataClass.swift in Sources */,
+				0138C10C2110433000DF87E7 /* Draggable.swift in Sources */,
+				01F16C93210B0D7A001E43FE /* SerialDetailViewController.swift in Sources */,
+				011EDA3320F618C900A3FC98 /* Constant.swift in Sources */,
+				013FB4BF20F8C92E00027227 /* AddCardViewController.swift in Sources */,
+				01F34FAB20F476EB006916A2 /* ScannerViewController.swift in Sources */,
+				013FB4BD20F8C69300027227 /* SerialTableViewCell.swift in Sources */,
+				018E9A6520F9A02D002B285A /* SelectImageViewController.swift in Sources */,
+				012E33EA210EC49900925476 /* CCZoomAnimatedTransitioning.swift in Sources */,
+				01F34FAC20F476EB006916A2 /* BluetoothSerial.swift in Sources */,
+				018E9A6F20F9C15D002B285A /* UIColor.swift in Sources */,
+				01F34FC120F47BF9006916A2 /* MBProgressHUD.m in Sources */,
+				018E9A6A20F9B032002B285A /* WallApp.xcdatamodeld in Sources */,
+				01F34FC420F48881006916A2 /* SwiftHEXColors.swift in Sources */,
+				018E9A6720F9AD43002B285A /* AppData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F34F8620F47677006916A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F34F8F20F47677006916A2 /* SmartCaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F34F9120F47677006916A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F34F9A20F47677006916A2 /* SmartCaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01F34F8C20F47677006916A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01F34F7520F47676006916A2 /* SmartCase */;
+			targetProxy = 01F34F8B20F47677006916A2 /* PBXContainerItemProxy */;
+		};
+		01F34F9720F47677006916A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01F34F7520F47676006916A2 /* SmartCase */;
+			targetProxy = 01F34F9620F47677006916A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01F34F7D20F47676006916A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01F34F7E20F47676006916A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01F34F8220F47677006916A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01F34F8320F47677006916A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01F34F9C20F47677006916A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01F34F9D20F47677006916A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01F34F9F20F47677006916A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFABA828DBACE55994AEBB31 /* Pods-SmartCase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LU2RYBLDG;
+				INFOPLIST_FILE = SmartCase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WallAppOfficial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartCase/SmartCase-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01F34FA020F47677006916A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 410FFC9B7E2BCCC0190B8FB7 /* Pods-SmartCase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LU2RYBLDG;
+				INFOPLIST_FILE = SmartCase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WallAppOfficial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartCase/SmartCase-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01F34FA220F47677006916A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80267A221A605CE9E4A8CDB9 /* Pods-SmartCaseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartCaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Squareroot.SmartCaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCase.app/SmartCase";
+			};
+			name = Debug;
+		};
+		01F34FA320F47677006916A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE88BD9CEDE907B87045861 /* Pods-SmartCaseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartCaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Squareroot.SmartCaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCase.app/SmartCase";
+			};
+			name = Release;
+		};
+		01F34FA520F47677006916A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F11DE5E124BDDE4CFA9A8220 /* Pods-SmartCaseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartCaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Squareroot.SmartCaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartCase;
+			};
+			name = Debug;
+		};
+		01F34FA620F47677006916A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BDF68AC8BBA478B5A380CAB /* Pods-SmartCaseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartCaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Squareroot.SmartCaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartCase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F34F7120F47676006916A2 /* Build configuration list for PBXProject "SmartCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F34F9C20F47677006916A2 /* Debug */,
+				01F34F9D20F47677006916A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F34F9E20F47677006916A2 /* Build configuration list for PBXNativeTarget "SmartCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F34F9F20F47677006916A2 /* Debug */,
+				01F34FA020F47677006916A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F34FA120F47677006916A2 /* Build configuration list for PBXNativeTarget "SmartCaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F34FA220F47677006916A2 /* Debug */,
+				01F34FA320F47677006916A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F34FA420F47677006916A2 /* Build configuration list for PBXNativeTarget "SmartCaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F34FA520F47677006916A2 /* Debug */,
+				01F34FA620F47677006916A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		018E9A6820F9B032002B285A /* WallApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				018E9A6920F9B032002B285A /* WallApp.xcdatamodel */,
+			);
+			currentVersion = 018E9A6920F9B032002B285A /* WallApp.xcdatamodel */;
+			path = WallApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01F34F6E20F47676006916A2 /* Project object */;
+}
