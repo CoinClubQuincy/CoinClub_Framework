@@ -25,7 +25,7 @@ This Python Documentation document is broken up into 3 parts
 
 - **CoinClub Framework XUMM API Doc**
 
-    - XUMM API [XUMM was an app built by ripple in the early Stage of XRPL]
+    - XUMM API - XUMM is a non custodial wallet app & XRPL payments platform, built by [XRPL Labs](https://xrpl-labs.com).
 
         
 
