@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.DS_Store
+xcuserdata/
+*.xcuserstate
+*.mobileprovision
+legacy/WallApp_IOS/Pods/
+# Wallet files written by `coinclub wallet new --out`.
+*.wallet.json
+.env
