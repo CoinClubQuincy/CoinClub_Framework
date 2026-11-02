@@ -1,6 +1,19 @@
+<div align="center">
+
+<img src=".github/assets/banner.svg" alt="CoinClub Framework: one Python interface for payments, DEX liquidity and payment gateways" width="100%">
+
 # CoinClub Framework
 
-One Python interface for payments, DEX liquidity and payment gateways across multiple blockchains.
+**One Python interface for payments, DEX liquidity and payment gateways across multiple blockchains.**
+
+<a href="https://github.com/CoinClubQuincy/CoinClub_Framework/actions/workflows/ci.yml"><img alt="CI status" src="https://img.shields.io/github/actions/workflow/status/CoinClubQuincy/CoinClub_Framework/ci.yml?branch=main&style=flat-square&label=CI"></a>
+<a href="LICENSE"><img alt="license: MIT" src="https://img.shields.io/badge/license-MIT-3b82f6?style=flat-square"></a>
+<img alt="python: 3.12+" src="https://img.shields.io/badge/python-3.12%2B-3776ab?style=flat-square">
+<img alt="status: not audited" src="https://img.shields.io/badge/status-not_audited-f59e0b?style=flat-square">
+
+[Install](#install) · [Chains](#chains) · [Liquidity](#issue-a-token-and-provide-liquidity) · [Accept payments](#accept-payments) · [Metered API](#run-a-metered-api) · [Migration](docs/MIGRATION.md)
+
+</div>
 
 ```python
 from coinclub import connect
@@ -17,12 +30,37 @@ print(receipt.status, receipt.tx_id)
 print(ledger.balance(bob.address))
 ```
 
-The same calls work on every chain below. Swap `"xrpl"` for `"stellar"`, `"xdc"` or `"algorand"`.
+Wallets, balances and transfers use the same calls across chains, so you can swap `"xrpl"` for `"stellar"`, `"xdc"` or `"algorand"`. Faucet funding with `request_test_funds` works only on `xrpl` and `stellar`, so fund test wallets on other chains yourself. [The table below](#chains) shows what each chain supports.
 
 > [!WARNING]
 > This software moves real money if you let it, and has had no independent security audit. It
 > connects to test networks by default and refuses mainnet writes unless you pass
 > `allow_mainnet=True`. Start on a test network.
+
+## What is included
+
+| Part | What it gives you |
+|---|---|
+| `connect()` | One wallet, balance and transfer interface, plus each chain's own features |
+| `coinclub.liquidity` | Order book strategies: mean, bottom, top, stable and range |
+| `coinclub.gateway` | Non-custodial invoices that settle from the chain itself |
+| `coinclub.xaman` | Let users approve transactions in their own wallet |
+| `coinclub.api` | A read-only AWS Lambda API with keys and monthly usage counts |
+| `coinclub.aws` | Wallets from Secrets Manager or SSM, invoices and keys in DynamoDB |
+| `coinclub` command | Wallets, balances, transactions, order books and ladders from a terminal |
+
+```mermaid
+flowchart LR
+    A["Your application"] --> B["connect()"]
+    A --> G["gateway"]
+    A --> L["liquidity"]
+    G --> B
+    L --> B
+    B --> X["XRP Ledger<br>Stellar"]
+    B --> E["XDC, Flare, Filecoin<br>Ethereum"]
+    B --> O["Algorand<br>Cardano"]
+    B --> R["EOS<br>(read-only)"]
+```
 
 ## Chains
 
@@ -42,6 +80,9 @@ The same calls work on every chain below. Swap `"xrpl"` for `"stellar"`, `"xdc"`
 The chains without that have not had a transaction accepted by a real network through this library,
 so try a small test payment first. EOS is read-only because signing needs ABI-aware Antelope
 serialization that this library does not include.
+
+The test suite has **250 offline tests** at 81% coverage, and **23 live tests** against public
+networks, also scheduled to run weekly in CI.
 
 ## Install
 
@@ -146,6 +187,19 @@ invoice = gateway.create_invoice("25.00")
 invoice = gateway.check(invoice.id)
 if invoice.status == "paid":
     print(invoice.tx_id)
+```
+
+```mermaid
+sequenceDiagram
+    participant App as Your application
+    participant Customer
+    participant Chain
+    App->>App: create_invoice("25.00")
+    App->>Customer: Address, amount and reference
+    Customer->>Chain: Pays your address directly
+    App->>Chain: check(invoice.id)
+    Chain-->>App: Final payment that matches
+    App->>App: Invoice is paid
 ```
 
 An invoice settles only on a final payment with the right address, reference and asset, for at
